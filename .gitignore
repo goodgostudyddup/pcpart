@@ -1,0 +1,26 @@
+target/
+*.class
+*.log
+*.jar
+*.war
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+db/buildcores-open-db/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+agent-python/data/
+
+# added by push.ps1
+.env.*
+!.env.example
+*.key
+*.pem
+node_modules/
+dist/
+build/

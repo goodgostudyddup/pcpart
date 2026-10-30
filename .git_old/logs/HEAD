@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 4970d9adb06be5ebd83911383520c4f9f888265d yexiaoche <3050521577@qq.com> 1789866095 +0800	commit (initial): chore: 初始化基线(agent.md + db/pc_part.sql + .gitignore)
+4970d9adb06be5ebd83911383520c4f9f888265d 7522dccfc6171e77757e3553dd10bd6cfb83d6e4 yexiaoche <3050521577@qq.com> 1789867032 +0800	commit: feat: 新增SpringBoot电脑组装项目(9表+build_config增删改查/自动计价/页面/迁移脚本/10个测试全通过)
+7522dccfc6171e77757e3553dd10bd6cfb83d6e4 be47c00e9104d22c2df595fa21128e767090340a yexiaoche <3050521577@qq.com> 1789883358 +0800	commit: feat: 前端表格与表单字段名改为中文显示
+be47c00e9104d22c2df595fa21128e767090340a c39efe70cf766744c3d13a47f504ab98d02259c1 yexiaoche <3050521577@qq.com> 1789884811 +0800	commit: feat: 新增中关村在线人民币价格爬取脚本(9表新增price_cny列,试跑25/27命中)
+c39efe70cf766744c3d13a47f504ab98d02259c1 380c30166dad8a3e14e729a31e557e1a6dd8ceff yexiaoche <3050521577@qq.com> 1789887396 +0800	commit: feat: 切换到open-db新数据(8张富参数表+配置单引用opendb_id+导入脚本+重写后端/前端/测试,小批量800条验证,9个测试通过)
+380c30166dad8a3e14e729a31e557e1a6dd8ceff c159e285198886daaa1a37a7510d7504f4233997 yexiaoche <3050521577@qq.com> 1789887432 +0800	commit: chore: 忽略本地open-db数据集目录(保留JSON在本地用于导入,不入库)
+c159e285198886daaa1a37a7510d7504f4233997 ae8da8685e6cc5ef020dfd47318d0a764e6397ca yexiaoche <3050521577@qq.com> 1789887853 +0800	commit: fix: 修复导入脚本尾部统计SQL语法错误,全量导入26196条并验证9个测试通过
+ae8da8685e6cc5ef020dfd47318d0a764e6397ca 569e2576b96b527847b0b487123ef8f6f118eccf yexiaoche <3050521577@qq.com> 1789889867 +0800	commit: feat: 新增BuildCores价格爬取脚本(trpc接口,8类5551条价格,4573行回写price_usd/price_cny,9个测试通过)
+569e2576b96b527847b0b487123ef8f6f118eccf 389e43c787d8d0581226d791c773a19b479dfa59 yexiaoche <3050521577@qq.com> 1789890931 +0800	commit: feat: 价格多策略匹配回写6143行(GPU 3->1219),实体/前端/测试补价格字段,9个测试通过
+389e43c787d8d0581226d791c773a19b479dfa59 905695cb34fd14d6c0907cf8ded099b64d80d9d0 yexiaoche <3050521577@qq.com> 1789891961 +0800	commit: perf: 价格脚本8类并行抓取(默认4线程可调,独立会话/连接,分页重试,9个测试通过)
+905695cb34fd14d6c0907cf8ded099b64d80d9d0 2769008d1e9af3c422a9cf632629a347b3590c5e yexiaoche <3050521577@qq.com> 1789892827 +0800	commit: fix: 有价行优先排序+前端全列表头点击排序(价格空值沉底),删除过期zol脚本,9个测试通过
+2769008d1e9af3c422a9cf632629a347b3590c5e 4c26282dd87c4901824083acc2e281f34105f5a1 yexiaoche <3050521577@qq.com> 1789913334 +0800	commit: feat: 配置推荐助手agent(Java R1-R10规则引擎+internal接口+Python FastAPI求解)
+4c26282dd87c4901824083acc2e281f34105f5a1 a849c610403fd67e071c28261f84fd41cde5c895 yexiaoche <3050521577@qq.com> 1789976078 +0800	commit: feat: 前端增加调用agent的推荐助手悬浮窗
+a849c610403fd67e071c28261f84fd41cde5c895 a0db1a3a32db8dfa5ee90f10962a3f664a825c2f yexiaoche <3050521577@qq.com> 1789978145 +0800	commit: fix: 修复助手问答无返回(Qwen3-8B默认思考导致超时/空内容)
+a0db1a3a32db8dfa5ee90f10962a3f664a825c2f c6485cf6cada67bbcf074470a85e4b2c743083a0 yexiaoche <3050521577@qq.com> 1789979505 +0800	commit: feat: 问答改为流式输出(SSE逐字渲染)
+c6485cf6cada67bbcf074470a85e4b2c743083a0 389addcfebd9dcf18f12bb425df25ec9962f271f yexiaoche <3050521577@qq.com> 1789983314 +0800	commit: feat: agent数据全部走Java落库校验+推荐后追问保存+瘦身LLM上下文
+389addcfebd9dcf18f12bb425df25ec9962f271f 0963bf804254b40a43f756785a5d9c461c9fddeb yexiaoche <3050521577@qq.com> 1790058023 +0800	commit: feat: 默认模型切换为deepseek-ai/DeepSeek-R1-0528-Qwen3-8B并适配推理输出
+0963bf804254b40a43f756785a5d9c461c9fddeb f3c2bfddfb3712d9cba5b121f275ef7797e7d07d yexiaoche <3050521577@qq.com> 1790157032 +0800	commit: feat: 聊天多轮记忆 + Java grounding + 配置单详情抽履
+f3c2bfddfb3712d9cba5b121f275ef7797e7d07d 4a0c6fb313a55787d4d83acc3ac68771f58d6623 yexiaoche <3050521577@qq.com> 1793158243 +0800	commit: feat: 助手改用 Dify Chatflow 与官方网页嵌入
+4a0c6fb313a55787d4d83acc3ac68771f58d6623 025dbef1ca237fb9f878e5e9ea54054343bdad92 yexiaoche <3050521577@qq.com> 1793158328 +0800	commit: chore: 删除已停用的 Python Agent 与 /assistant-api 代理

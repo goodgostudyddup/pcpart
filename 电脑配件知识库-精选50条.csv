@@ -1,0 +1,401 @@
+﻿名称,部件,厂商,系列,类型,插槽,芯片组,芯片,芯片厂商,板型,微架构,核心家族,核心,频率,缓存(L2/L3),TDP,核显,最大内存,内存,无线,ECC支持,RAID支持,显存,核心频率,显存频率,接口,长度,槽宽,散热,同步技术,冷排,风扇,转速,噪音,高度,最大显卡长度,最大散热器高度,硬盘位,扩展槽,体积,重量,侧板,附带电源,颜色,功率,能效,模组,无风扇,容量,速率,时序,电压,规格,NVMe,缓存(MB),年份,价格人民币元,价格美元
+AMD Ryzen 9 9950X3D2,cpu(处理器),AMD,Ryzen 9 9000,,AM5,,,,,Zen 5,Granite Ridge,16核32线程,4.3-5.6GHz,L2 16MB / L3 192MB,200W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,6223,889
+AMD Ryzen 7 9850X3D,cpu(处理器),AMD,Ryzen 7 9000,,AM5,,,,,Zen 5,Granite Ridge,8核16线程,4.7-5.6GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3388,484
+AMD Ryzen 7 7700X3D,cpu(处理器),AMD,Ryzen 7 7000,,AM5,,,,,Zen 4,Raphael,8核16线程,4-4.5GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,2303,329
+Intel Core Ultra 7 270K Plus,cpu(处理器),Intel,Core Ultra 7 200,,LGA 1851,,,,,Arrow Lake Refresh,Lion Cove / Skymont,24核24线程(P8+E16),3.7-5.5GHz,L2 40MB / L3 36MB,125W,Intel Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,2240,320
+Intel Core Ultra 5 250K Plus,cpu(处理器),Intel,Core Ultra 5 200,,LGA 1851,,,,,Arrow Lake Refresh,Lion Cove / Skymont,18核18线程(P6+E12),4.2-5.3GHz,L2 30MB / L3 30MB,125W,Intel Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,1533,219
+Intel Core Ultra 5 250KF Plus,cpu(处理器),Intel,Core Ultra 5 200,,LGA 1851,,,,,Arrow Lake Refresh,Lion Cove / Skymont,18核18线程(P6+E12),4.2-5.3GHz,L2 30MB / L3 30MB,125W,,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026,1400,200
+AMD Ryzen Threadripper PRO 9995WX,cpu(处理器),AMD,Ryzen Threadripper PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,96核192线程,2.5-5.4GHz,L2 96MB / L3 384MB,350W,,2048GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,80150,11450
+AMD Ryzen Threadripper 9985WX,cpu(处理器),AMD,Ryzen Threadripper PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,64核128线程,3.2-5.4GHz,L2 64MB / L3 256MB,350W,,2048GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,55258,7894
+AMD Ryzen Threadripper 9980X,cpu(处理器),AMD,Ryzen Threadripper 9000,,sTR5,,,,,Zen 5,Shimada Peak,64核128线程,3.2-5.4GHz,L2 64MB / L3 256MB,350W,,1024GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,33718,4817
+AMD Ryzen Threadripper PRO 9975WX,cpu(处理器),AMD,Ryzen Threadripper PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,32核64线程,4-5.4GHz,L2 32MB / L3 128MB,350W,,2048GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,27300,3900
+AMD Ryzen Threadripper PRO 9965WX,cpu(处理器),AMD,Ryzen Threadripper PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,24核48线程,4.2-5.4GHz,L2 24MB / L3 128MB,350W,,2GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,18900,2700
+AMD Ryzen Threadripper 9970X,cpu(处理器),AMD,Ryzen Threadripper 9000,,sTR5,,,,,Zen 5,Shimada Peak,32核64线程,4-5.4GHz,L2 32MB / L3 128MB,350W,,1024GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,16450,2350
+AMD Ryzen Threadripper PRO 9955WX,cpu(处理器),AMD,Ryzen PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,16核32线程,4.5-5.4GHz,L2 16MB / L3 64MB,350W,,2048GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,10843,1549
+AMD Ryzen Threadripper 9960X,cpu(处理器),AMD,Ryzen Threadripper 9000,,sTR5,,,,,Zen 5,Shimada Peak,24核48线程,4.2-5.4GHz,L2 24MB / L3 128MB,350W,,1024GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,10493,1499
+AMD Ryzen Threadripper PRO 9945WX,cpu(处理器),AMD,Ryzen Threadripper PRO 9000,,sTR5,,,,,Zen 5,Shimada Peak,12核24线程,4.7-5.4GHz,L2 12MB / L3 64MB,350W,,2048GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,6475,925
+Intel Core Ultra 9 285,cpu(处理器),Intel,Core Ultra 9 200,,LGA 1851,,,,,Arrow Lake,Lion Cove / Skymont,24核24线程(P8+E16),2.5-5.6GHz,L2 40MB / L3 36MB,65W,Intel Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,4620,660
+AMD Ryzen 9 9950X3D,cpu(处理器),AMD,Ryzen 9 9000,,AM5,,,,,Zen 5,Granite Ridge,16核32线程,4.3-5.7GHz,L2 16MB / L3 128MB,170W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,4606,658
+AMD Ryzen 9 9900X3D,cpu(处理器),AMD,Ryzen 9 9000,,AM5,,,,,Zen 5,Granite Ridge,12核24线程,4.4-5.5GHz,L2 12MB / L3 128MB,120W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,3521,503
+Intel Core Ultra 7 265,cpu(处理器),Intel,Core Ultra 7 200,,LGA 1851,,,,,Arrow Lake,Lion Cove,20核20线程(P8+E12),2.4-5.3GHz,L2 36MB / L3 30MB,65W,Intel Xe Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,2894,413
+Intel Core Ultra 7 265F,cpu(处理器),Intel,Core Ultra 7 200,,LGA 1851,,,,,Arrow Lake,Arrow Lake-S,20核20线程(P8+E12),2.4-5.3GHz,L2 36MB / L3 30MB,65W,,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,2505,358
+Intel Core Ultra 5 235,cpu(处理器),Intel,Core Ultra 5 200,,LGA 1851,,,,,Arrow Lake,Arrow Lake-S,14核14线程(P6+E8),3.4-5GHz,L2 26MB / L3 24MB,65W,Intel Xe Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,2100,300
+AMD Ryzen 5 7500X3D,cpu(处理器),AMD,Ryzen 5 7000,,AM5,,,,,Zen 4,Raphael,6核12线程,4-4.5GHz,L2 6MB / L3 96MB,65W,AMD Radeon Graphics,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,1813,259
+AMD Ryzen 5 9600,cpu(处理器),AMD,Ryzen 5 9000,,AM5,,,,,Zen 5,Granite Ridge,6核12线程,3.8-5.2GHz,L2 6MB / L3 32MB,65W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,1649,236
+Intel Core Ultra 5 225,cpu(处理器),Intel,Core Ultra 5 200,,LGA 1851,,,,,Arrow Lake,Arrow Lake-S,10核10线程(P6+E4),3.3-4.9GHz,L2 22MB / L3 20MB,65W,Intel Xe Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,1250,179
+Intel Core Ultra 5 225F,cpu(处理器),Intel,Core Ultra 5 200,,LGA 1851,,,,,Arrow Lake,Lion Cove / Skymont,10核10线程(P6+E4),3.3-4.9GHz,L2 22MB / L3 20MB,65W,,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025,1001,143
+AMD EPYC 4584PX,cpu(处理器),AMD,EPYC 4000,,AM5,,,,,Zen 4,Raphael,16核32线程,4.2-5.7GHz,L2 16MB / L3 128MB,120W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,4725,675
+Intel Core i9 14900,cpu(处理器),Intel,Core i9 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove,24核32线程(P8+E16),2-5.8GHz,L2 32MB / L3 36MB,65W,Intel UHD Graphics 770,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,4339,620
+AMD EPYC 4564P,cpu(处理器),AMD,EPYC 4000,,AM5,,,,,Zen 4,Raphael,16核32线程,4.5-5.7GHz,L2 16MB / L3 64MB,170W,AMD Radeon Graphics,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,4200,600
+Intel Core i9-14900KS,cpu(处理器),Intel,Core i9 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),3.2-5.7GHz,L2 32MB / L3 36MB,150W,Intel UHD 770,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,4060,580
+Intel Core i9 14900F,cpu(处理器),Intel,Core i9 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),2-5.8GHz,L2 32MB / L3 36MB,65W,,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3996,571
+AMD EPYC 4484PX OEM/Tray,cpu(处理器),AMD,EPYC 4000,,AM5,,,,,Zen 4,Raphael,12核24线程,4.4-5.6GHz,L2 12MB / L3 128MB,120W,AMD Radeon Graphics,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3675,525
+Intel Core Ultra 9 285K,cpu(处理器),Intel,Core Ultra 9 200,,LGA 1851,,,,,Arrow Lake,Lion Cove / Skymont,24核24线程(P8+E16),3.7-5.5GHz,L2 40MB / L3 36MB,125W,Intel Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3675,525
+AMD Ryzen 9 9950X,cpu(处理器),AMD,Ryzen 9 9000,,AM5,,,,,Zen 5,Granite Ridge,16核32线程,4.3-5.7GHz,L2 16MB / L3 64MB,170W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3500,500
+AMD Ryzen 7 9800X3D,cpu(处理器),AMD,Ryzen 7 9000,,AM5,,,,,Zen 5,Granite Ridge,8核16线程,4.7-5.2GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3143,449
+Intel Core Ultra 7 265KF,cpu(处理器),Intel,Core Ultra 7 200,,LGA 1851,,,,,Arrow Lake,Lion Cove / Skymont,20核20线程(P8+E12),3.9-5.5GHz,L2 36MB / L3 30MB,125W,,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,3008,430
+Intel Core i7 14700,cpu(处理器),Intel,Core i7 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Lake Refresh,20核28线程(P8+E12),2.1-5.4GHz,L2 28MB / L3 33MB,65W,Intel UHD Graphics 770,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2657,380
+AMD EPYC 4464P,cpu(处理器),AMD,EPYC  4000,,AM5,,,,,Zen 4,Raphael,12核24线程,3.7-5.4GHz,L2 12MB / L3 64MB,65W,AMD Radeon Graphics,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2625,375
+AMD Ryzen 9 9900X,cpu(处理器),AMD,Ryzen 9 9000,,AM5,,,,,Zen 5,Granite Ridge,12核24线程,4.4-5.6GHz,L2 12MB / L3 64MB,120W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2317,331
+Intel Core i7 14700F,cpu(处理器),Intel,Core i7 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove / Gracemont,20核28线程(P8+E12),2.1-5.4GHz,L2 28MB / L3 33MB,65W,,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2310,330
+AMD Ryzen 9 5900XT,cpu(处理器),AMD,Ryzen 9 5000,,AM4,,,,,Zen 3,Vermeer,16核32线程,3.3-4.8GHz,L2 8MB / L3 64MB,105W,,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2157,308
+AMD Ryzen 7 9700X,cpu(处理器),AMD,Ryzen 7 9000,,AM5,,,,,Zen 5,Granite Ridge,8核16线程,3.8-5.5GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,2065,295
+AMD EPYC 4364P,cpu(处理器),AMD,EPYC 4004,,AM5,,,,,Zen 4,Raphael,8核16线程,4.5-5.4GHz,L2 8MB / L3 32MB,105W,AMD Radeon Graphics,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1925,275
+AMD Ryzen 7 5700X3D,cpu(处理器),AMD,Ryzen 7 5000,,AM4,,,,,Zen 3,Vermeer,8核16线程,3-4.1GHz,L2 4MB / L3 96MB,105W,,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1925,275
+Intel Core i5 14500,cpu(处理器),Intel,Core i5 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove / Gracemont,14核20线程(P6+E8),2.6-5GHz,L2 11.5MB / L3 24MB,65W,Intel UHD Graphics 770,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1868,267
+AMD Ryzen 7 8700G,cpu(处理器),AMD,Ryzen 7 8000,,AM5,,,,,Zen 4,Phoenix,8核16线程,4.2-5.1GHz,L2 8MB / L3 16MB,65W,AMD Radeon 780M,256GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1855,265
+AMD Ryzen 5 7600X3D,cpu(处理器),AMD,Ryzen 5 7000,,AM5,,,,,Zen 4,Raphael,6核12线程,4.1-4.7GHz,L2 6MB / L3 96MB,65W,AMD Radeon Graphics,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1750,250
+Intel Core i5 14500T OEM/Tray,cpu(处理器),Intel,Core i5 14000,,LGA 1700,,,,,Raptor Lake,Raptor Cove + Gracemont,14核20线程(P6+E8),1.7-4.8GHz,L2 11.5MB / L3 24MB,35W,Intel UHD Graphics 770,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1750,250
+AMD Ryzen 7 5800XT,cpu(处理器),AMD,Ryzen 7 5000,,AM4,,,,,Zen 3,Vermeer,8核16线程,3.8-4.8GHz,L2 4MB / L3 32MB,105W,,128GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1673,239
+AMD EPYC 4344P,cpu(处理器),AMD,EPYC 4004,,AM5,,,,,Zen 4,Raphael,8核16线程,3.8-5.3GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1575,225
+Intel Core i5 14400,cpu(处理器),Intel,Core i5 14000,,LGA 1700,,,,,Raptor Lake Refresh,Raptor Cove / Gracemont,10核16线程(P6+E4),2.5-4.7GHz,L2 9.5MB / L3 20MB,65W,Intel UHD Graphics 730,192GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,1419,203
+Noctua NL-LC1-42 AIO 420mm,cooler(散热器),Noctua,,水冷,"AM5, AM4, LGA 1954, LGA 1851, LGA 1700",,,,,,,,,,,,,,,,,,,,,,,,,420mm,3×140mm 0-1800RPM,,14.9-?dBA,70mm,,,,,,,,,,,,,是,,,,,,,,2026,2450,350
+Noctua NL-LC1-36 AIO 360mm,cooler(散热器),Noctua,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1954",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm,,14.9-?dBA,70mm,,,,,,,,,,,,,是,,,,,,,,2026,1750,250
+Noctua NL-LC1-24 AIO 240mm,cooler(散热器),Noctua,,水冷,"AM5, AM4, LGA 1954, LGA 1851, LGA 1700",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 0-1800RPM,,14.6-?dBA,70mm,,,,,,,,,,,,,是,,,,,,,,2026,1540,220
+TRYX STAGE 360mm White,cooler(散热器),TRYX,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1151, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-1850RPM,,25.3-?dBA,91mm,,,,,,,,,,,,,,,,,,,,,2026,1400,200
+MSI MPG CORELIQUID D360 Water 360mm 77.4 CFM Black,cooler(散热器),MSI,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851, LGA 2011, LGA 2066, sTRX4, TR4, LGA 2011-3",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×360mm 0-2500RPM,,21.2-?dBA,84mm,,,,,,,,,,,,,,,,,,,,,2026,1330,190
+TRYX HOLO ARGB 360mm Liquid Cooler Black,cooler(散热器),TRYX,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1151v2, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2100RPM,,29.2-?dBA,92mm,,,,,,,,,,,,,,,,,,,,,2026,1260,180
+TRYX HOLO ARGB 360mm Liquid Cooler White,cooler(散热器),TRYX,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1151v2, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2100RPM,,29.2-?dBA,92mm,,,,,,,,,,,,,,,,,,,,,2026,1260,180
+TRYX TURRIS White,cooler(散热器),TRYX,,风冷,"AM5, AM4, LGA 1851, LGA 1700",,,,,,,,,,,,,,,,,,,,,,,,,,2×120mm 500-1850RPM,,32.5-?dBA,165mm,,,,,,,,,,,,,,,,,,,,,2026,910,130
+TRYX TURRIS Black,cooler(散热器),TRYX,,风冷,"AM5, AM4, LGA 1851, LGA 1700",,,,,,,,,,,,,,,,,,,,,,,,,,2×120mm 500-1850RPM,,32.5-?dBA,165mm,,,,,,,,,,,,,,,,,,,,,2026,903,129
+Formula V Line Ice Jet Vision 360 Black,cooler(散热器),Formula V Line,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1151, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 800-1800RPM,,27-?dBA,72mm,,,,,,,,,,,,,,,,,,,,,2026,840,120
+Formula V Line Ice Jet Vision 360 White,cooler(散热器),Formula V Line,,水冷,"AM5, AM4, LGA 1700, LGA 1851, LGA 1151, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 800-1800RPM,,27-?dBA,72mm,,,,,,,,,,,,,,,,,,,,,2026,840,120
+bequiet! DARK ROCK PRO 6 Air Cooler,cooler(散热器),be quiet!,,风冷,"AM5, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1150, LGA 1155, AM4",,,,,,,,,,,,,,,,,,,,,,,,,,2×120mm 2000-?RPM,,32.4-?dBA,169mm,,,,,,,,,,,,,,,,,,,,,2026,839,120
+darkFlash DE240 Black,cooler(散热器),darkFlash,,水冷,"AM5, AM4, AM3, LGA 1851, LGA 1700, LGA 1151, LGA 1200, LGA 1150, LGA 1151v2, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 800-2000RPM,,36-?dBA,80.6mm,,,,,,,,,,,,,,,,,,,,,2026,700,100
+darkFlash DE240 White,cooler(散热器),darkFlash,,水冷,"AM5, AM4, AM3, LGA 1851, LGA 1700, LGA 1151, LGA 1200, LGA 1150, LGA 1155, LGA 1151v2, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 800-2000RPM,,36-?dBA,80.6mm,,,,,,,,,,,,,,,,,,,,,2026,700,100
+bequiet! Dark Rock 6 Air cooler,cooler(散热器),be quiet!,,风冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1150, LGA 1155",,,,,,,,,,,,,,,,,,,,,,,,,,2×135mm 2000-?RPM,,11.9-31.1dBA,162mm,,,,,,,,,,,,,,,,,,,,,2026,699,100
+MSI MPG CORELIQUID D240 Water 240mm 77.4 CFM Black,cooler(散热器),MSI,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851, sTRX4, TR4, LGA 2066, LGA 2011-3, LGA 2011",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 0-2500RPM,,21.2-?dBA,84mm,,,,,,,,,,,,,,,,,,,,,2026,693,99
+TCOMAS WG600 360 BLACK,cooler(散热器),TCOMAS,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 650-2600RPM,,?-37.2dBA,86.4mm,,,,,,,,,,,,,,,,,,,,,2026,630,90
+TCOMAS WG600 360 WHITE,cooler(散热器),TCOMAS,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 650-2600RPM,,?-37.2dBA,86.4mm,,,,,,,,,,,,,,,,,,,,,2026,630,90
+TCOMAS WA300 BLACK,cooler(散热器),TCOMAS,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 650-2500RPM,,?-35dBA,77.7mm,,,,,,,,,,,,,,,,,,,,,2026,560,80
+TCOMAS WA300 WHITE,cooler(散热器),TCOMAS,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 650-2500RPM,,?-35dBA,77.7mm,,,,,,,,,,,,,,,,,,,,,2026,560,80
+Arctic Liquid Freezer WS360-4710,cooler(散热器),ARCTIC,,水冷,"LGA 4677, LGA 4710",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 600-3000RPM,,,46mm,,,,,,,,,,,,,,,,,,,,,2026,490,70
+Arctic Liquid Freezer WS360-SP5,cooler(散热器),ARCTIC,,水冷,SP5,,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 600-3000RPM,,,46mm,,,,,,,,,,,,,,,,,,,,,2026,490,70
+Arctic Liquid Freezer WS360-SP6 Black,cooler(散热器),ARCTIC,,水冷,"TR4, sTRX4, sTR5, sWRX8, SP3, SP6",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 600-3000RPM,,,46mm,,,,,,,,,,,,,,,,,,,,,2026,490,70
+darkFlash E400 Plus Black,cooler(散热器),darkFlash,,风冷,"AM5, AM4, LGA 1700, LGA 1151, LGA 1150, LGA 1151v2, LGA 1155, LGA 1156, LGA 1366, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,,2×120mm 800-?RPM,,?-37.1dBA,155mm,,,,,,,,,,,,,,,,,,,,,2026,350,50
+darkFlash E400 White,cooler(散热器),darkFlash,,风冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1151, LGA 1200, LGA 1150, LGA 1156, LGA 1151v2, LGA 1155",,,,,,,,,,,,,,,,,,,,,,,,,,1×120mm 800-2000RPM,,37.48-?dBA,155mm,,,,,,,,,,,,,,,,,,,,,2026,350,50
+darkFlash E400 Plus White,cooler(散热器),darkFlash,,风冷,"AM5, AM4, LGA 1700, LGA 1151, LGA 1150, LGA 1151v2, LGA 1155, LGA 1156, LGA 1366, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,,2×120mm 800-?RPM,,?-37.1dBA,155mm,,,,,,,,,,,,,,,,,,,,,2026,189,27
+darkFlash E400 Black,cooler(散热器),darkFlash,,风冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1151, LGA 1200, LGA 1151v2, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,,1×120mm 800-2000RPM,,37.48-?dBA,155mm,,,,,,,,,,,,,,,,,,,,,2026,154,22
+Thermalright Frost Tower 140,cooler(散热器),Thermalright,,风冷,"AM5, AM4, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851, LGA 2011, LGA 2066",,,,,,,,,,,,,,,,,,,,,,,,,,2×140mm 0-2400RPM,,0-36.25dBA,158mm,,,,,,,,,,,,,,,,,,,,,2026,35,5
+Thermalright Frost Tower 140 Black,cooler(散热器),Thermalright,,风冷,"AM5, AM4, LGA 1155, LGA 1150, LGA 1151, LGA 1156, LGA 1700, LGA 1200, LGA 1851, LGA 2011, LGA 2066",,,,,,,,,,,,,,,,,,,,,,,,,,2×140mm 0-2400RPM,,0-36.25dBA,158mm,,,,,,,,,,,,,,,,,,,,,2026,35,5
+Thermalright Frost Tower 140 White,cooler(散热器),Thermalright,,风冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1151, LGA 1200, LGA 1150, LGA 1156, LGA 1155, LGA 2011, LGA 2066",,,,,,,,,,,,,,,,,,,,,,,,,,2×140mm 0-2400RPM,,0-36.25dBA,158mm,,,,,,,,,,,,,,,,,,,,,2026,35,5
+ASUS ROG RYUO IV SLC 360 ARGB White Edition,cooler(散热器),Asus,,水冷,"AM4, AM5, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm,,,123mm,,,,,,,,,,,,,,,,,,,,,2025,3010,430
+ASUS ROG RYUO IV 360 ARGB White,cooler(散热器),Asus,,水冷,"AM5, AM4, LGA 1700, LGA 1200, LGA 1851, LGA 1151, LGA 1151v2, LGA 1155, LGA 1150, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2000RPM,,30.7-?dBA,137mm,,,,,,,,,,,,,,,,,,,,,2025,2940,420
+Asus ROG Ryuo IV SLC Water 360mm ARGB 71.44 CFM,cooler(散热器),Asus,,水冷,"AM4, AM5, LGA 1700, LGA 1851, LGA 1151, LGA 1151v2, LGA 1150, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,120mm 800-2650RPM,,39.6-?dBA,137mm,,,,,,,,,,,,,,,,,,,,,2025,2890,413
+ASUS ROG RYUO IV 360 Black ARGB,cooler(散热器),Asus,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1151v2, LGA 1150, LGA 1156, LGA 1155",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2000RPM,,30.7-?dBA,137mm,,,,,,,,,,,,,,,,,,,,,2025,2499,357
+TRYX PANORAMA ARGB (2025) AIO 360mm Black,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-1850RPM,,28.87-?dBA,118mm,,,,,,,,,,,,,,,,,,,,,2025,2100,300
+TRYX PANORAMA ARGB (2025) AIO 360mm White,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-1850RPM,,28.87-?dBA,118mm,,,,,,,,,,,,,,,,,,,,,2025,2100,300
+ASUS ROG RYUO IV 360 ARGB Hatsune Miku Edition,cooler(散热器),Asus,,水冷,"AM5, AM4, LGA 1851, LGA 1700, LGA 1200, LGA 1151, LGA 1150, LGA 1151v2, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2000RPM,,30.7-?dBA,137mm,,,,,,,,,,,,,,,,,,,,,2025,1925,275
+TRYX PANORAMA SE AIO 360mm ARGB Black,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-1850RPM,,28-?dBA,125mm,,,,,,,,,,,,,,,,,,,,,2025,1750,250
+TRYX PANORAMA SE AIO 360mm ARGB White,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-1850RPM,,28-?dBA,125mm,,,,,,,,,,,,,,,,,,,,,2025,1750,250
+Lian Li HydroShift II LCD-S 360 TL Black,cooler(散热器),Lian Li,,水冷,"AM4, AM5, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 1600-3200RPM,,28-?dBA,62mm,,,,,,,,,,,,,,,,,,,,,2025,1680,240
+Lian Li HydroShift II LCD-S 360 TL White,cooler(散热器),Lian Li,,水冷,"AM4, AM5, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 1600-3200RPM,,28-?dBA,62mm,,,,,,,,,,,,,,,,,,,,,2025,1680,240
+TRYX Panorama SE ARGB 240mm White,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 500-1850RPM,,28-?dBA,125mm,,,,,,,,,,,,,,,,,,,,,2025,1624,232
+TRYX Panorama SE ARGB AIO 240mm Black,cooler(散热器),TRYX,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,240mm,2×120mm 500-1850RPM,,28-?dBA,125mm,,,,,,,,,,,,,,,,,,,,,2025,1624,232
+Thermalright Wonder Vision 360 UB ARGB BLACK,cooler(散热器),Thermalright,,水冷,"AM5, AM4, LGA 2066, LGA 2011, LGA 1851, LGA 1700, LGA 1200, LGA 1150, LGA 1151, LGA 1155, LGA 1156",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 2150-?RPM,,27-?dBA,107mm,,,,,,,,,,,,,,,,,,,,,2025,1452,207
+Lian Li HydroShift II LCD-S 360 CL Black,cooler(散热器),Lian Li,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 1600-3200RPM,,28-?dBA,62mm,,,,,,,,,,,,,,,,,,,,,2025,1260,180
+Lian Li HydroShift II LCD-S 360 CL White,cooler(散热器),Lian Li,,水冷,"AM4, AM5, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 1600-3200RPM,,28-?dBA,62mm,,,,,,,,,,,,,,,,,,,,,2025,1260,180
+NZXT Kraken Plus 360mm RGB Black (2025),cooler(散热器),NZXT,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2400RPM,,31.9-?dBA,56mm,,,,,,,,,,,,,,,,,,,,,2025,1120,160
+MSI MPG CORELIQUID P13 360 White,cooler(散热器),MSI,,水冷,"AM5, AM4, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2050RPM,,20-?dBA,78mm,,,,,,,,,,,,,,,,,,,,,2025,1050,150
+NZXT Kraken Plus 360mm RGB White (2025),cooler(散热器),NZXT,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851",,,,,,,,,,,,,,,,,,,,,,,,,360mm,3×120mm 500-2400RPM,,31.9-?dBA,56mm,,,,,,,,,,,,,,,,,,,,,2025,1050,150
+be quiet! Silent Loop 3 Water 420mm Black,cooler(散热器),be quiet!,,水冷,"AM4, AM5, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1200, LGA 1700, LGA 1851, sTR4, sTRX4",,,,,,,,,,,,,,,,,,,,,,,,,420mm,3×140mm 1900-?RPM,,19.4-34.3dBA,94mm,,,,,,,,,,,,,,,,,,,,,2025,1049,150
+MSI GeForce RTX 5090 32G LIGHTNING Z GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,1000W,,,,,,,32GB GDDR7,2017/2730MHz,1750MHz,PCIe 5.0 x16,260mm,3,Water Cooled,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,54250,7750
+Gigabyte GeForce RTX 5090 AORUS XTREME WATERFORCE WB 32GB GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,600W,,,,,,,32GB GDDR7,2010/2655MHz,1750MHz,PCIe 5.0 x16,235mm,2,Water Cooled,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,51100,7300
+ASUS ROG RTX 5090 20TH ANNIVERSARY,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2407MHz,,PCIe 5.0 x16,361mm,4.7,4 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,48300,6900
+MSI GeForce RTX 5080 16G The Mandalorian and Grogu Edition OC,gpu(显卡),MSI,,,,,GeForce RTX 5080,NVIDIA,,,,,,,360W,,,,,,,16GB GDDR7,2295/2700MHz,1875MHz,PCIe 5.0 x16,304mm,2.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,13650,1950
+Intel Arc Pro B70 Single-Fan 32GB GDDR6,gpu(显卡),Intel,,,,,Arc Pro B70,Intel,,,,,,,230W,,,,,,,32GB GDDR6,2280/2800MHz,2375MHz,PCIe 5.0 x16,267mm,2,Blower,None,,,,,,,,,,,,,,,,,,,,,,,,,,2026,11900,1700
+MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC,gpu(显卡),MSI,,,,,GeForce RTX 5070 Ti,NVIDIA,,,,,,,300W,,,,,,,16GB GDDR7,2295/2572MHz,1750MHz,PCIe 5.0 x16,338mm,2.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,9800,1400
+PNY GeForce RTX 5070 Ti Slim Dual Fan,gpu(显卡),PNY,,,,,GeForce RTX 5070 Ti,NVIDIA,,,,,,,300W,,,,,,,16GB GDDR7,2295/2452MHz,1750MHz,PCIe 5.0 x16,290mm,2,2 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,9800,1400
+PNY GeForce RTX 5070 12GB GDDR7 Slim Dual Fan,gpu(显卡),PNY,,,,,GeForce RTX 5070,NVIDIA,,,,,,,250W,,,,,,,12GB GDDR7,2325/2512MHz,1750MHz,PCIe 5.0 x16,290mm,2,2 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,6825,975
+MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT LIGHT EDITION OC GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5070,NVIDIA,,,,,,,250W,,,,,,,12GB GDDR7,2325/2610MHz,1750MHz,PCIe 5.0 x16,338mm,2.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,6650,950
+MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5070,NVIDIA,,,,,,,250W,,,,,,,12GB GDDR7,2325/2610MHz,1750MHz,PCIe 5.0 x16,338mm,3,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,6650,950
+ASRock AMD Radeon RX 9070 GRE Steel Legend Dark 12GB GDDR6 OC,gpu(显卡),ASRock,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1600/2920MHz,2250MHz,PCIe 5.0 x16,298mm,2.9,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,4398,628
+PowerColor Red Devil Radeon RX 9070 GRE 12GB GDDR6 OC,gpu(显卡),PowerColor,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2920MHz,2250MHz,PCIe 5.0 x16,340mm,3,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,4200,600
+Asus Prime Radeon RX 9070 GRE EVO OC Edition 12GB GDDR6,gpu(显卡),ASUS,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2860MHz,2250MHz,PCIe 5.0 x16,304mm,2.5,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,4060,580
+PowerColor Hellhound Radeon RX 9070 GRE 12GB GDDR6 OC,gpu(显卡),PowerColor,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2860MHz,2250MHz,PCIe 5.0 x16,327mm,2,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3990,570
+PowerColor Reaper Radeon RX 9070 GRE 12GB GDDR6,gpu(显卡),PowerColor,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2790MHz,2250MHz,PCIe 5.0 x16,289mm,2,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3990,570
+Sapphire PULSE Radeon RX 9070 GRE OC 12GB GDDR6,gpu(显卡),Sapphire,,,,,Radeon RX 9070 GRE,AMD,,,,,,,240W,,,,,,,12GB GDDR6,1600/2920MHz,2250MHz,PCIe 5.0 x16,280mm,2.5,2 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3990,570
+XFX Swift Radeon RX 9070 GRE White Triple Fan Gaming Edition 12GB GDDR6,gpu(显卡),XFX,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2790MHz,18000MHz,PCIe 5.0 x16,301mm,2,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3990,570
+Gigabyte GAMING OC Radeon RX 9070 GRE 12GB GDDR6,gpu(显卡),Gigabyte,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2920MHz,2250MHz,PCIe 5.0 x16,288mm,2.5,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3850,550
+XFX Swift Radeon RX 9070 GRE Black Triple Fan Gaming Edition 12GB GDDR6,gpu(显卡),XFX,,,,,Radeon RX 9070 GRE,AMD,,,,,,,220W,,,,,,,12GB GDDR6,1420/2790MHz,2250MHz,PCIe 5.0 x16,301mm,2,3 Fans,FreeSync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3850,550
+MSI GeForce RTX 5060 8G GAMING OC V1,gpu(显卡),MSI,,,,,GeForce RTX 5060,NVIDIA,,,,,,,150W,,,,,,,8GB GDDR7,2280/2587MHz,1750MHz,PCIe 5.0 x8,248mm,2,2 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3500,500
+MSI GeForce RTX 5060 8G GAMING V1,gpu(显卡),MSI,,,,,GeForce RTX 5060,NVIDIA,,,,,,,150W,,,,,,,8GB GDDR7,2280/2497MHz,1750MHz,PCIe 5.0 x8,248mm,2,2 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2026,3500,500
+NVIDIA RTX PRO 6000 Blackwell Workstation Edition 96GB GDDR7,gpu(显卡),NVIDIA,,,,,RTX PRO 6000 Blackwell,NVIDIA,,,,,,,600W,,,,,,,96GB GDDR7,1590/2617MHz,1750MHz,PCIe 5.0 x16,304mm,2,2 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,129500,18500
+NVIDIA RTX PRO 5000 72GB Blackwell GDDR7,gpu(显卡),NVIDIA,,,,,RTX PRO 5000 72GB Blackwell,NVIDIA,,,,,,,300W,,,,,,,72GB GDDR7,1740/2377MHz,1750MHz,PCIe 5.0 x16,266.7mm,2,Blower,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,106785,15255
+ASUS ROG Matrix Platinum GeForce RTX 5090 32GB GDDR7 ASUS Graphics Cards 30th Anniversary Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2730MHz,1750MHz,PCIe 5.0 x16,370.3mm,3.9,4 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,69643,9949
+NVIDIA RTX PRO™ 5000 72GB Blackwell GDDR7,gpu(显卡),PNY,,,,,RTX PRO 5000 72GB Blackwell,NVIDIA,,,,,,,300W,,,,,,,72GB GDDR7,1740/2377MHz,1750MHz,PCIe 5.0 x16,266.7mm,2,Blower,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,64470,9210
+PNY NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7,gpu(显卡),PNY,,,,,RTX PRO 5000 Blackwell,NVIDIA,,,,,,,300W,,,,,,,48GB GDDR7,1740/2377MHz,1750MHz,PCIe 5.0 x16,266.7mm,2,Blower,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,61250,8750
+ZOTAC GAMING GeForce RTX 5090 ARCTICSTORM AIO 32GB GDDR7,gpu(显卡),Zotac,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2437MHz,1750MHz,PCIe 5.0 x16,251.6mm,2.5,Water Cooled,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,50050,7150
+Gigabyte AORUS GeForce RTX 5090 MASTER 32G GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2655MHz,1750MHz,PCIe 5.0 x16,360mm,3.75,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48789,6970
+Gigabyte AORUS GeForce RTX™ 5090 STEALTH ICE 32G GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2655MHz,1750MHz,PCIe 5.0 x16,360mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48789,6970
+ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2580MHz,1750MHz,PCIe 5.0 x16,358mm,3.8,4 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48300,6900
+ASUS ROG Astral GeForce RTX 5090 Dhahab OC Edition 32GB GDDR7,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2580MHz,1750MHz,PCIe 5.0 x16,357.6mm,3.8,4 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48300,6900
+MSI GeForce RTX 5090 32G SUPRIM LIQUID SOC GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2527MHz,1750MHz,PCIe 5.0 x16,280mm,2.5,Hybrid,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48300,6900
+ROG Astral LC GeForce RTX 5090 32GB GDDR7 OC Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2580MHz,1750MHz,PCIe 5.0 x16,288.46mm,2.5,Hybrid,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,48300,6900
+Gigabyte AORUS MASTER GeForce RTX 5090 32GB GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2655MHz,1750MHz,PCIe 5.0 x16,360mm,4,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47950,6850
+ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 WHITE OC Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2580MHz,1750MHz,PCIe 5.0 x16,357.6mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47600,6800
+ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7 OC Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2550MHz,1750MHz,PCIe 5.0 x16,348mm,3.6,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47600,6800
+PNY GeForce RTX 5090 32GB ARGB EPIC-X RGB Overclocked Triple Fan GDDR7,gpu(显卡),PNY,,,,,GeForce RTX 5090,NVIDIA,,,,,,,600W,,,,,,,32GB GDDR7,2017/2625MHz,1750MHz,PCIe 5.0 x16,329mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47600,6800
+PNY GeForce RTX 5090 32GB Overclocked Triple Fan GDDR7,gpu(显卡),PNY,,,,,GeForce RTX 5090,NVIDIA,,,,,,,600W,,,,,,,32GB GDDR7,2017/2527MHz,1750MHz,PCIe 5.0 x16,329mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47600,6800
+ROG Astral GeForce RTX 5090 32GB GDDR7 WHITE OC Edition,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2580MHz,1750MHz,PCIe 5.0 x16,357.6mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47600,6800
+ASUS ROG Astral GeForce RTX 5090 32GB GDDR7,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2437MHz,1750MHz,PCIe 5.0 x16,357.6mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+GIGABYTE GeForce RTX 5090 GAMING OC 32G GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2550MHz,1750MHz,PCIe 5.0 x16,342mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+GIGABYTE GeForce RTX 5090 WINDFORCE OC 32G GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2467MHz,1750MHz,PCIe 5.0 x16,342mm,3.25,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+Inno3D X3 OC GeForce RTX 5090 32GB GDDR7,gpu(显卡),Inno3D,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2452MHz,1750MHz,PCIe x16,333mm,3,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+MSI GeForce RTX 5090 32G GAMING TRIO 32GB GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2407MHz,1750MHz,PCIe 5.0 x16,359mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+MSI GeForce RTX 5090 32G VANGUARD SOC GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2512MHz,1750MHz,PCIe 5.0 x16,357mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+MSI GeForce RTX 5090 32G VANGUARD SOC LAUNCH EDITION GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2512MHz,1750MHz,PCIe 5.0 x16,357mm,3.8,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+ZOTAC GAMING GeForce RTX 5090 AMP Extreme INFINITY 32GB GDDR7,gpu(显卡),Zotac,,,,,GeForce RTX 5090,NVIDIA,,,,,,,600W,,,,,,,32GB GDDR7,2017/2467MHz,1750MHz,PCIe 5.0 x16,332mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,47250,6750
+ASUS TUF Gaming GeForce RTX 5090 32GB GDDR7,gpu(显卡),ASUS,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2407MHz,1750MHz,PCIe 5.0 x16,348mm,3.6,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,46900,6700
+Gigabyte WINDFORCE GeForce RTX 5090 32GB GDDR7,gpu(显卡),Gigabyte,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2407MHz,1750MHz,PCIe 5.0 x16,342mm,3.25,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,46900,6700
+MSI GAMING TRIO OC GeForce RTX 5090 32 GB GDDR7,gpu(显卡),MSI,,,,,GeForce RTX 5090,NVIDIA,,,,,,,575W,,,,,,,32GB GDDR7,2017/2482MHz,1750MHz,PCIe 5.0 x16,359mm,3.5,3 Fans,G-Sync,,,,,,,,,,,,,,,,,,,,,,,,,,2025,46900,6700
+ASUS ROG CROSSHAIR X870E GLACIAL,motherboard(主板),ASUS,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2026,9100,1300
+GIGABYTE X870E AORUS XTREME X3D AI TOP AM5 DDR5 E-ATX,motherboard(主板),Gigabyte,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,7497,1071
+MSI MEG X870E ACE MAX,motherboard(主板),MSI,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GOLD",,,,,,,,,,,,2026,4900,700
+ASUS X870E ROG CROSSHAIR DARK HERO AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,4753,679
+ASUS ROG STRIX X870E-E GAMING WIFI7 NEO,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,3758,537
+GIGABYTE X870E AERO X3D DARK WOOD AM5 DDR5 ATX,motherboard(主板),Gigabyte,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,3360,480
+AsRock X870E TAICHI White,motherboard(主板),ASRock,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2026,3325,475
+ASUS X870E ROG CROSSHAIR 2006 AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, ORANGE",,,,,,,,,,,,2026,3150,450
+ASUS ROG STRIX X870E-A GAMING WIFI7 NEO,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2026,3080,440
+GIGABYTE X870E AERO X3D WOOD AM5 DDR5 ATX,motherboard(主板),Gigabyte,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"WHITE, GOLD",,,,,,,,,,,,2026,2771,396
+MSI MPG X870E CARBON MAX WIFI,motherboard(主板),MSI,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"RGB, BLACK",,,,,,,,,,,,2026,2625,375
+MSI MPG X870I EDGE TI EVO WIFI,motherboard(主板),MSI,,,AM5,AMD X870,,,Mini-ITX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,,,,,,,,2026,2590,370
+ASUS ROG STRIX B850-F GAMING WIFI7 NEO,motherboard(主板),ASUS,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,2030,290
+ASUS ProArt B850-CREATOR WIFI NEO,motherboard(主板),ASUS,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,WiFi-7,,是,,,,,,,,,,,,,,,,,,,,,,"GREY, BLACK, GOLD",,,,,,,,,,,,2026,1974,282
+MSI MEG X870E UNIFY-X MAX,motherboard(主板),MSI,,,AM5,AMD X870E,,,ATX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, RGB",,,,,,,,,,,,2026,1925,275
+ASUS ROG STRIX B850-A GAMING WIFI7 NEO AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,,,,,,,,2026,1890,270
+GIGABYTE X870 AORUS ELITE X3D,motherboard(主板),Gigabyte,,,AM5,AMD X870,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1750,250
+MSI MAG Z890 TOMAHAWK WIFI II,motherboard(主板),MSI,,,LGA 1851,Intel Z890,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"GREEN, BLACK, GREY",,,,,,,,,,,,2026,1750,250
+AsRock X870E Challenger WIFI,motherboard(主板),ASRock,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1610,230
+AsRock X870E Challenger WIFI White,motherboard(主板),ASRock,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,,,,,,,,2026,1610,230
+MSI MAG B850 TOMAHAWK MAX WIFI II,motherboard(主板),MSI,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1610,230
+MSI MAG B850 GAMING PLUS MAX WIFI AM5 DDR5 ATX,motherboard(主板),MSI,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"GREY, WHITE",,,,,,,,,,,,2026,1470,210
+ASUS EX-B650EM-V7 PLUS-CSM,motherboard(主板),ASUS,,,AM5,AMD B650E,,,Micro ATX,,,,,,,,,2槽 DDR5 最大128GB,,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY, RED",,,,,,,,,,,,2026,1330,190
+ASUS B760M MAX GAMING WIFI,motherboard(主板),ASUS,,,LGA 1700,Intel B760,,,Micro ATX,,,,,,,,,4槽 DDR5 最大256GB,WiFi 6 Bluetooth 5.3,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,1260,180
+ASROCK X870 Challenger WIFI,motherboard(主板),ASRock,,,AM5,AMD X870,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1190,170
+AsRock X870 Challenger WIFI White,motherboard(主板),ASRock,,,AM5,AMD X870,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2026,1190,170
+ASUS TUF GAMING B650EM-PLUS WIFI,motherboard(主板),ASUS,,,AM5,AMD B650,,,Micro ATX,,,,,,,,,4槽 DDR5 最大256GB,Wifi 6E Bluetooth 5.3,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1190,170
+MSI MPG B850M EDGE TI MAX WIFI,motherboard(主板),MSI,,,AM5,AMD B850,,,Micro ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 + Bluetooth 5.4,是,,,,,,,,,,,,,,,,,,,,,,,"WHITE, BLACK",,,,,,,,,,,,2026,1190,170
+MSI PRO B850-V EVO WIFI,motherboard(主板),MSI,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1190,170
+ASUS EX-B650M-V7 PLUS,motherboard(主板),ASUS,,,AM5,AMD B650,,,Micro ATX,,,,,,,,,2槽 DDR5 最大96GB,,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY, RED",,,,,,,,,,,,2026,1120,160
+ASUS PRIME B650M-R-CSM,motherboard(主板),ASUS,,,AM5,AMD B650,,,Micro ATX,,,,,,,,,2槽 DDR5 最大96GB,,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,1120,160
+MSI PRO B850-VC EVO WIFI6E,motherboard(主板),MSI,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wifi 6E Bluetooth 5.3,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1120,160
+ASUS TUF GAMING B650EM-E WIFI,motherboard(主板),ASUS,,,AM5,AMD B650,,,Micro ATX,,,,,,,,,4槽 DDR5 最大256GB,WiFi 6 Bluetooth 5.3,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2026,1022,146
+AsRock B850M Rock WiFi,motherboard(主板),ASRock,,,AM5,AMD B850,,,Micro ATX,,,,,,,,,2槽 DDR5 最大128GB,Wifi 6E Bluetooth 5.3,是,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,987,141
+AsRock B850 Rock WIFI7,motherboard(主板),ASRock,,,AM5,AMD B850,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2026,910,130
+MSI MEG X870E GODLIKE MAX,motherboard(主板),MSI,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7 Bluetooth 5.4,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, RGB",,,,,,,,,,,,2025,9100,1300
+MSI MEG X870E GODLIKE AM5 DDR5 EATX,motherboard(主板),MSI,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,7357,1051
+ASUS X870E ROG CROSSHAIR EXTREME AM5 DDR5 EATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wifi 7,是,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GREY",,,,,,,,,,,,2025,5775,825
+Asus ROG CROSSHAIR X870E HERO BTF WIFI DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,4900,700
+MSI MEG X870E GODLIKE X EDITION,motherboard(主板),MSI,,,AM5,AMD X870E,,,EATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"BLACK, GOLD",,,,,,,,,,,,2025,4900,700
+ASUS X870E ROG CROSSHAIR APEX AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,4200,600
+GIGABYTE X870E AORUS MASTER X3D AM5 DDR5 ATX,motherboard(主板),Gigabyte,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,4130,590
+Gigabyte X870E AORUS MASTER X3D ICE AM5 DDR5 ATX,motherboard(主板),Gigabyte,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2025,3591,513
+ASRock X870E Taichi OCF AM5 DDR5 ATX,motherboard(主板),ASRock,,,AM5,AMD X870E,,,ATX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7,是,是,,,,,,,,,,,,,,,,,,,,,,"YELLOW, BLACK, GOLD",,,,,,,,,,,,2025,3500,500
+ASUS ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,"BLUE, BLACK, PURPLE",,,,,,,,,,,,2025,3150,450
+Gigabyte X870 AORUS TACHYON ICE AM5 DDR5 EATX,motherboard(主板),Gigabyte,,,AM5,AMD X870,,,EATX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7 Bluetooth 5.4,是,是,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,,,,,,,,2025,2903,415
+ASUS ROG STRIX B860-F GAMING WIFI DDR5 ATX,motherboard(主板),ASUS,,,LGA 1851,Intel B860,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wifi 7,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,2824,403
+ASUS ROG STRIX X870E-H GAMING WIFI7 AM5 DDR5 ATX,motherboard(主板),ASUS,,,AM5,AMD X870E,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wi-Fi 7,,是,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,,,,,,,,2025,2646,378
+ASUS ROG STRIX B850-I GAMING WIFI7 W AM5 DDR5 Mini-ITX,motherboard(主板),ASUS,,,AM5,AMD B850,,,Mini-ITX,,,,,,,,,2槽 DDR5 最大128GB,Wi-Fi 7,是,,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,,,,,,,,2025,2625,375
+Asus ROG STRIX B860-A GAMING WIFI DDR5 ATX,motherboard(主板),ASUS,,,LGA 1851,Intel B860,,,ATX,,,,,,,,,4槽 DDR5 最大256GB,Wifi 7,,是,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,,,,,,,,2025,2599,371
+MSI MEG MAESTRO 900R,pc_case(机箱),MSI,,,,,,,ATX Full Tower,,,,,,,,,,,,,,,,,,,,,,,,,,440mm,170mm,"3.5""×5 2.5""×9",8,176L,72kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,4900,700
+ASUS ROG Cronox ARGB Black,pc_case(机箱),Asus,,,,,,,EATX Full Tower,,,,,,,,,,,,,,,,,,,,,,,,,,400mm,180mm,"3.5""×1 2.5""×2",8,89.8L,35.23kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,3920,560
+ASUS ROG Cronox ARGB White,pc_case(机箱),Asus,,,,,,,EATX Full Tower,,,,,,,,,,,,,,,,,,,,,,,,,,400mm,180mm,"3.5""×1 2.5""×2",8,89.7L,35.3kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,1575,225
+NZXT H6 RGB+ (2026) ATX Mid Tower Black Tempered Glass,pc_case(机箱),NZXT,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,55L,20.5kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,1400,200
+NZXT H6 RGB+ (2026) ATX Mid Tower White Tempered Glass,pc_case(机箱),NZXT,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,55L,20.5kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,1400,200
+Phanteks EVOLV X2  Matrix ATX Mid Tower Black Tempered Glass Side Panel,pc_case(机箱),Phanteks,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,380mm,170mm,"3.5""×2 2.5""×5",8,60.09L,31.3kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,1190,170
+Phanteks EVOLV X2 Matrix ATX Mid Tower White Tempered Glass Side Panel,pc_case(机箱),Phanteks,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,380mm,170mm,"3.5""×2 2.5""×5",8,60.09L,31.3kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,1190,170
+SilverStone FLP03,pc_case(机箱),Silverstone,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,413mm,169mm,"3.5""×2 2.5""×5",5,48.5L,16.3kg,Solid,None,WHITE,,,,,,,,,,,,2026,1169,167
+Corsair WARTHOG Black,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,190mm,"3.5""×1 2.5""×2",7,82.8L,27.3kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,1120,160
+Corsair WARTHOG BLACK RS,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,190mm,"3.5""×1 2.5""×2",7,82.8L,27.3kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,1120,160
+Corsair WARTHOG OLIVE DRAB,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,190mm,"3.5""×1 2.5""×2",7,82.8L,27.3kg,Tempered Glass,None,GREEN,,,,,,,,,,,,2026,1120,160
+Corsair WARTHOG RS OLIVE DRAB,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,190mm,"3.5""×1 2.5""×2",7,82.8L,27.3kg,Tempered Glass,None,GREEN,,,,,,,,,,,,2026,1120,160
+Corsair FRAME 4000D Vault Series Modular Mid-Tower PC Case – Galaxy,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,170mm,"3.5""×1 2.5""×2",7,56.91L,27.65kg,Tempered Glass,None,"PURPLE, BLACK, BLUE",,,,,,,,,,,,2026,980,140
+Corsair FRAME 4000D Vault Series Modular Mid-Tower PC Case – Nova,pc_case(机箱),Corsair,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,430mm,170mm,"3.5""×1 2.5""×2",7,56.91L,27.65kg,Tempered Glass,None,"BLUE, WHITE, PURPLE",,,,,,,,,,,,2026,973,139
+iBUYPOWER Element Pulse X Gaming Case - Black,pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,57.9L,21.5kg,Tempered Glass,None,"BLACK, RGB",,,,,,,,,,,,2026,910,130
+iBUYPOWER Trace X RGB Gaming Case - Black,pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,57.9L,20.5kg,Tempered Glass,None,"BLACK, RGB",,,,,,,,,,,,2026,910,130
+Lian Li O11 Vision M Digital Black,pc_case(机箱),Lian Li,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,410mm,162mm,"3.5""×1 2.5""×3",5,45.62L,17.4kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,910,130
+TRYX FLOVA F50 Black,pc_case(机箱),TRYX,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,170mm,"3.5""×4 2.5""×4",7,58L,22kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,910,130
+TRYX FLOVA F50 Pink,pc_case(机箱),TRYX,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,170mm,"3.5""×4 2.5""×4",7,58L,22kg,Tempered Glass,None,PINK,,,,,,,,,,,,2026,910,130
+iBUYPOWER Trace X RGB Gaming Case - White,pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,57.9L,20.5kg,Tempered Glass,None,"WHITE, RGB",,,,,,,,,,,,2026,840,120
+NZXT H2 Flow Black,pc_case(机箱),NZXT,,,,,,,Mini ITX Tower,,,,,,,,,,,,,,,,,,,,,,,,,,331mm,75mm,"2.5""×2",,20.7L,10.03kg,Tempered Glass,,BLACK,,,,,,,,,,,,2026,840,120
+Formula V Line Air Power G9 Duo PA Black,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,770,110
+Formula V Line Air Power G9 Duo PA White,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,770,110
+Formula V Line Air Power G9 Duo SA Black,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,770,110
+Formula V Line Air Power G9 Duo SA White,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,770,110
+Formula V Line Air Power G9 Duo White,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,770,110
+"iBuypower Slate 9 Mesh ATX Mid Tower Black with Mesh, Tempered Glass Side Panel",pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,405mm,168mm,"3.5""×1 2.5""×2",7,53.36L,17.5kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,770,110
+Fractal Design Pop 2 Air Black Tempered Glass RGB - ATX Mid Tower,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,416mm,170mm,"3.5""×1 2.5""×2",7,47.8L,16.31kg,Tempered Glass,None,"BLACK, RGB",,,,,,,,,,,,2026,700,100
+Fractal Design Pop 2 Air White Tempered Glass RGB - ATX Mid Tower,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,416mm,170mm,"3.5""×1 2.5""×2",7,47.8L,16.31kg,Tempered Glass,,"WHITE, RGB",,,,,,,,,,,,2026,700,100
+Fractal Design Pop 2 Vision Black RGB,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,412mm,172mm,"3.5""×1 2.5""×3",7,57L,21.3kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,700,100
+Fractal Design Pop 2 Vision White RGB,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,412mm,172mm,"3.5""×1 2.5""×3",7,57L,21.3kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,700,100
+iBUYPOWER Element Pulse X Gaming Case - White,pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,57.9L,21.5kg,Tempered Glass,None,"WHITE, RGB",,,,,,,,,,,,2026,700,100
+NZXT H6 (2026) ATX Mid Tower Black Tempered Glass,pc_case(机箱),NZXT,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,55L,20.72kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,700,100
+NZXT H6 (2026) ATX Mid Tower White Tempered Glass,pc_case(机箱),NZXT,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,165mm,"3.5""×1 2.5""×2",7,55L,17.5kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,700,100
+Montech Sky 3 ATX Mid Tower with Tempered Glass Side Panel - Black,pc_case(机箱),MONTECH,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,445mm,185mm,"3.5""×2 2.5""×2",7,55.03L,18.41kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,651,93
+Fractal Design Pop 2 Air Black Solid - ATX Mid Tower,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,416mm,170mm,"3.5""×1 2.5""×2",7,47.8L,15.4kg,Solid,None,BLACK,,,,,,,,,,,,2026,630,90
+Fractal Design Pop 2 Air Black Tempered Glass - ATX Mid Tower,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,416mm,170mm,"3.5""×1 2.5""×2",7,47.8L,16.31kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,630,90
+"iBuypower Slate 9 Mesh ATX Mid Tower White with Mesh, Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",pc_case(机箱),iBUYPOWER,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,405mm,168mm,"3.5""×1 2.5""×2",7,53.36L,17.5kg,Tempered Glass,None,"WHITE, RGB",,,,,,,,,,,,2026,630,90
+LIAN LI B4 Wood White,pc_case(机箱),Lian Li,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,358mm,159mm,"3.5""×1 2.5""×2",4,21.3L,10.7kg,Mesh,None,WHITE,,,,,,,,,,,,2026,630,90
+Montech Sky 3 ATX Mid Tower with Tempered Glass Side Panel - White,pc_case(机箱),MONTECH,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,445mm,185mm,"3.5""×2 2.5""×2",7,55.03L,18.41kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,630,90
+Thermaltake View 370 ARGB TG Black Mid Tower Chassis,pc_case(机箱),Thermaltake,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,165mm,"3.5""×1 2.5""×3",7,55.4L,19kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,630,90
+TRYX FLOVA F50 White,pc_case(机箱),TRYX,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,360mm,170mm,"3.5""×4 2.5""×4",7,58L,22kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,619,88
+Fractal Design Pop 2 Vision Black,pc_case(机箱),Fractal Design,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,412mm,172mm,"3.5""×1 2.5""×3",7,57L,21.3kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,595,85
+LIAN LI B4 Wood Black,pc_case(机箱),Lian Li,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,358mm,159mm,"3.5""×1 2.5""×2",4,21.3L,10.7kg,Mesh,None,BLACK,,,,,,,,,,,,2026,595,85
+Lian Li Vector V150 INF,pc_case(机箱),Lian Li,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,400mm,163.5mm,"3.5""×1 2.5""×5",5,46.2L,17.9kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,595,85
+Thermaltake View 370 TG ARGB Snow Mid Tower Chassis,pc_case(机箱),Thermaltake,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,165mm,"3.5""×1 2.5""×3",7,55.4L,19kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,595,85
+Lian Li Vector V100R Mini With ARGB Fans,pc_case(机箱),Lian Li,,,,,,,Micro ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,415mm,163.5mm,"3.5""×1 2.5""×2",5,42.8L,13kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,584,83
+Formula V Line Air Power G9 Duo Black,pc_case(机箱),Formula V Line,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,420mm,182mm,"3.5""×1 2.5""×1",7,54.6L,19.9kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,560,80
+SAMA S50 Black,pc_case(机箱),SAMA,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,410mm,165mm,"3.5""×3 2.5""×4",7,47.6L,16.09kg,Tempered Glass,None,BLACK,,,,,,,,,,,,2026,560,80
+SAMA S50 White,pc_case(机箱),SAMA,,,,,,,ATX Mid Tower,,,,,,,,,,,,,,,,,,,,,,,,,,410mm,165mm,"3.5""×3 2.5""×4",7,47.6L,16.09kg,Tempered Glass,None,WHITE,,,,,,,,,,,,2026,560,80
+Asus ROG Thor Platinum III Gaming White 1200W Fully Modular,psu(电源),Asus,,,,,,,,,,,,,,,,,,,,,,,,190mm,,,,,,,,,,,,,,,,,,1200W,80+ Platinum,Full,,,,,,ATX,,,2026,6831,976
+MSI MPG Ai1600TS PCIE5,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1600W,80+ Titanium,Full,是,,,,,ATX,,,2026,2450,350
+NZXT C850 (2026) SFX Gold,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,125mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,,,,,,SFX,,,2026,1050,150
+MSI MEG Ai-T PCIE5 Black / Gold 1600W Fully Modular 80+ Titanium Certified,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,190mm,,,,,,,,,,,,,,,,,,1600W,80+ Titanium,Full,是,,,,,ATX,,,2025,3500,500
+MSI MEG Ai1600TS PCIE5,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,190mm,,,,,,,,,,,,,,,,,,1600W,80+ Titanium,Full,,,,,,ATX,,,2025,3325,475
+be quiet! DARK POWER 14 1200W,psu(电源),be quiet!,,,,,,,,,,,,,,,,,,,,,,,,175mm,,,,,,,,,,,,,,,,,,1200W,80+ Titanium,Full,是,,,,,ATX,,,2025,2450,350
+be quiet! DARK POWER 14 1000W,psu(电源),be quiet!,,,,,,,,,,,,,,,,,,,,,,,,175mm,,,,,,,,,,,,,,,,,,1000W,80+ Titanium,Full,是,,,,,ATX,,,2025,2100,300
+be quiet! DARK POWER 14 850W,psu(电源),be quiet!,,,,,,,,,,,,,,,,,,,,,,,,175mm,,,,,,,,,,,,,,,,,,850W,80+ Titanium,Full,,,,,,ATX,,,2025,1750,250
+Lian Li SP Platinum 1000W Black SP1000P,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,100mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,SFX,,,2025,1260,180
+Lian Li SP Platinum 1000W White SP1000P,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,100mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,SFX,,,2025,1260,180
+Gigabyte AORUS ELITE P1000 Black 1000W Fully Modular 80+ Platinum Certified,psu(电源),Gigabyte,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,ATX,,,2025,1190,170
+Lian Li SP Platinum 850W Black SP0850P,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,100mm,,,,,,,,,,,,,,,,,,850W,80+ Platinum,Full,,,,,,SFX,,,2025,1155,165
+Lian Li SP Platinum 850W White SP0850P,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,100mm,,,,,,,,,,,,,,,,,,850W,80+ Platinum,Full,,,,,,SFX,,,2025,1155,165
+Lian Li SX Platinum 1200W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - 10 Year Warranty - White (SX1200P.W),psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1200W,80+ Platinum,Full,,,,,,ATX,,,2025,1120,160
+MSI MAG A1000GLS PCIE5 Black ATX 1000W Fully Modular 80+ Gold,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2025,1050,150
+be quiet! Pure Power 13 M Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black,psu(电源),be quiet!,,,,,,,,,,,,,,,,,,,,,,,,160mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2025,980,140
+MSI MAG A1000GL PCIE5 WHITE,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2025,980,140
+MSI MPG A1250GS PCIE5 II,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1250W,80+ Gold,Full,,,,,,ATX,,,2025,980,140
+Thermaltake Toughpower GT 1200W Black,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1200W,80+ Gold,Full,是,,,,,ATX,,,2025,980,140
+Thermaltake Toughpower GT 1200W White,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1200W,80+ Gold,Full,是,,,,,ATX,,,2025,980,140
+Lian Li SX Platinum 1200W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - 10 Year Warranty - Black (SX1200P.B),psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1200W,80+ Platinum,Full,,,,,,ATX,,,2025,910,130
+Thermaltake Toughpower GT 1000W Black,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,是,,,,,ATX,,,2025,910,130
+Thermaltake Toughpower GT 1000W White,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,是,,,,,ATX,,,2025,910,130
+be quiet! Pure Power 13 M Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - Black,psu(电源),be quiet!,,,,,,,,,,,,,,,,,,,,,,,,160mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,,,,,,ATX,,,2025,840,120
+Lian Li SX Platinum 850W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - White (SX0850P.W),psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,850W,80+ Platinum,Full,,,,,,ATX,,,2025,840,120
+Lian Li SX Platinum 1000W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - 10 Year Warranty - White (SX1000P.W),psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,ATX,,,2025,805,115
+MSI MAG A850GLS PCIE5,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,,,,,,ATX,,,2025,770,110
+MSI MPG A1000GS PCIE5 II,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2025,770,110
+Lian Li SX Platinum 1000W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - 10 Year Warranty - Black (SX1000P.B),psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,ATX,,,2025,700,100
+MSI MAG A750GLS,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,750W,80+ Gold,Full,,,,,,ATX,,,2025,630,90
+MSI MAG A650GLS PCIE5,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,650W,80+ Gold,Full,,,,,,ATX,,,2025,574,82
+Lian Li SX Platinum 850W SXP Compact ATX Form Factor Power Supply w/ 12V-2x6 Cable - ATX 3.1 & PCIE 5.1 Compliant - 140mm Fan - Full Modular - 10 Year Warranty - Black (SX0850P.B,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,850W,80+ Platinum,Full,,,,,,ATX,,,2025,560,80
+MSI MAG A750BN PCIE5 III,psu(电源),MSI,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,750W,80+ Gold,Non-Modular,,,,,,ATX,,,2025,560,80
+Rosewill VMG 750W Fully Modular 80+ Gold Certified ATX,psu(电源),Rosewill,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,750W,80+ Gold,Full,,,,,,ATX,,,2025,560,80
+Rosewill VSB Black 650W Semi-Modular 80+ Bronze Certified ATX,psu(电源),Rosewill,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,650W,80+ Bronze,Semi-Modular,,,,,,ATX,,,2025,350,50
+Asus ROG Thor P3 Gaming 1000W Fully Modular 80+ Platinum Certified,psu(电源),Asus,,,,,,,,,,,,,,,,,,,,,,,,190mm,,,,,,,,,,,,,,,,,,1000W,80+ Platinum,Full,,,,,,ATX,,,2024,2921,417
+Asus ROG Thor P3 Gaming 1200W Fully Modular 80+ Platinum Certified,psu(电源),Asus,,,,,,,,,,,,,,,,,,,,,,,,190mm,,,,,,,,,,,,,,,,,,1200W,80+ Platinum,Full,,,,,,ATX,,,2024,2625,375
+Lian Li EDGE Black ATX 1300W Fully Modular 80+ Platinum Certified,psu(电源),Lian Li,,,,,,,,,,,,,,,,,,,,,,,,182mm,,,,,,,,,,,,,,,,,,1300W,80+ Platinum,Full,,,,,,ATX,,,2024,1750,250
+Enermax PlatiGemini Fully Modular ATX Power Supply - 1200 Watts ATX 3.1 - Black,psu(电源),Enermax,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1200W,80+ Platinum,Full,,,,,,ATX,,,2024,1575,225
+"Phanteks AMP 1000W V2 80PLUS Gold, ATX Power Supply, 12VHPWR Included, Fully Modular, Hybrid Mode, Silent fan, Revolt PRO LINK Certified",psu(电源),Phanteks,,,,,,,,,,,,,,,,,,,,,,,,220mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2024,1575,225
+NZXT C1200 Fully Modular ATX Power Supply - 1200 Watts ATX 3.1 - White,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1200W,80+ Gold,Full,,,,,,ATX,,,2024,1365,195
+Seasonic Focus V4 GX-1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - White,psu(电源),SeaSonic,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2024,1260,180
+Gigabyte AORUS ELITE P850 Black 850W Fully Modular 80+ Platinum Certified,psu(电源),Gigabyte,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,850W,80+ Platinum,Full,,,,,,ATX,,,2024,1050,150
+NZXT C1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - Black,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2024,1050,150
+NZXT C1000 Fully Modular ATX Power Supply - 1000 Watts ATX 3.1 - White,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,1000W,80+ Gold,Full,,,,,,ATX,,,2024,1050,150
+Seasonic G12 GM-650 (2024),psu(电源),SeaSonic,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,650W,80+ Gold,Semi-Modular,,,,,,ATX/EPS,,,2024,1050,150
+NZXT C850 Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - Black,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,,,,,,ATX,,,2024,910,130
+NZXT C850 Fully Modular ATX Power Supply - 850 Watts ATX 3.1 - White,psu(电源),NZXT,,,,,,,,,,,,,,,,,,,,,,,,150mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,,,,,,ATX,,,2024,910,130
+Thermaltake Toughpower GT 850W Black,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,850W,80+ Gold,Full,是,,,,,ATX,,,2024,770,110
+Thermaltake Toughpower GT 750W Black,psu(电源),Thermaltake,,,,,,,,,,,,,,,,,,,,,,,,140mm,,,,,,,,,,,,,,,,,,750W,80+ Gold,Full,是,,,,,ATX,,,2024,700,100
+G.Skill Trident Z5 Neo RGB 128GB (2x64GB) DDR5-6000 CL32 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),6000MT/s,CL32,1.4V,288-pin DIMM,,,2026,16450,2350
+ADATA XPG NOVAKEY DDR5-6400 64GB (2x32GB) CL32 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (2×32GB),6400MT/s,CL32,1.4V,288-pin DIMM,,,2026,10150,1450
+ADATA XPG NOVAKEY DDR5-6000 64GB (2x32GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (2×32GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2026,9800,1400
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL26 Matte Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL26,1.45V,288-pin DIMM,,,2026,8050,1150
+ADATA XPG NOVAKEY DDR5-6000 32GB (2x16GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2026,5250,750
+ADATA XPG NOVAKEY DDR5-6400 32GB (2x16GB) CL32 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6400MT/s,CL32,1.4V,288-pin DIMM,,,2026,5250,750
+ADATA XPG NOVAKEY DDR5-6400 32GB (1x32GB) CL32 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (1×32GB),6400MT/s,CL32,1.4V,288-pin DIMM,,,2026,5075,725
+ADATA XPG NOVAKEY DDR5-6000 32GB (1x32GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (1×32GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2026,4900,700
+G.SKILL Trident Z5 NeoX RGB DDR5 6000 CL 26 32GB (2x16GB) White,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,32GB (2×16GB),6000MT/s,CL26,1.45V,288-pin DIMM,,,2026,4900,700
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL26 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL26,1.45V,288-pin DIMM,,,2026,4900,700
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL28 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL28,1.4V,288-pin DIMM,,,2026,4725,675
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL28 White,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,32GB (2×16GB),6000MT/s,CL28,1.4V,288-pin DIMM,,,2026,4725,675
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL30 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL30,1.35V,288-pin DIMM,,,2026,4452,636
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL30 White,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,32GB (2×16GB),6000MT/s,CL30,1.35V,288-pin DIMM,,,2026,4452,636
+ADATA XPG NOVAKEY DDR5-6000 32GB (2x16GB) CL48 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL48,1.25V,288-pin DIMM,,,2026,4375,625
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL36,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL36,1.35V,288-pin DIMM,,,2026,4375,625
+ADATA XPG NOVAKEY DDR5-5600 32GB (2x16GB) CL46 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),5600MT/s,CL46,1.1V,288-pin DIMM,,,2026,4200,600
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL36 White,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,32GB (2×16GB),6000MT/s,CL36,1.35V,288-pin DIMM,,,2026,3605,515
+G.SKILL Trident Z5 NeoX RGB DDR5-6000 32GB (2x16GB) CL36 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL36,1.35V,288-pin DIMM,,,2026,3500,500
+ADATA XPG NOVAKEY DDR5-6000 16GB (1x16GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,16GB (1×16GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2026,2625,375
+ADATA XPG NOVAKEY DDR5-6400 16GB (1x16GB) CL32 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,16GB (1×16GB),6400MT/s,CL32,1.4V,288-pin DIMM,,,2026,2625,375
+ADATA XPG NOVAKEY RGB DDR5-5600 16GB (1x16GB) CL46 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,16GB (1×16GB),5600MT/s,CL46,1.1V,288-pin DIMM,,,2026,2281,326
+ADATA XPG NOVAKEY DDR5-6000 16GB (1x16GB) CL48 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,16GB (1×16GB),6000MT/s,CL48,1.25V,288-pin DIMM,,,2026,2275,325
+G.Skill Flare X5 256GB (4x64GB) DDR5 6000 CL34 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,256GB (4×64GB),6000MT/s,CL34,1.35V,288-pin DIMM,,,2025,44800,6400
+G.Skill Trident Z5 Neo RGB 256GB (4x64GB) DDR5 6000 CL36 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"BLACK, RGB",,,,,256GB (4×64GB),6000MT/s,CL36,1.25V,288-pin DIMM,,,2025,42000,6000
+G.Skill Flare X5 256GB (4x64GB) DDR5 6000 CL36 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,256GB (4×64GB),6000MT/s,CL36,1.25V,288-pin DIMM,,,2025,41860,5980
+G.Skill Flare X5 256GB (4x64GB) DDR5-6000 CL32 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,256GB (4×64GB),6000MT/s,CL32,1.4V,288-pin DIMM,,,2025,41860,5980
+G.Skill Trident Z5 Neo RGB 256GB (4x64GB) DDR5-6000 CL32 Matte Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,256GB (4×64GB),6000MT/s,CL32,1.4V,288-pin DIMM,,,2025,31150,4450
+G.Skill Flare X5 128GB (2x64GB)  DDR5-6000 CL32 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),6000MT/s,CL32,1.4V,288-pin DIMM,,,2025,26110,3730
+G.Skill Flare X5 128GB (2x64GB) DDR5-6000 CL34 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),6000MT/s,CL34,1.35V,288-pin DIMM,,,2025,24500,3500
+G.Skill Flare X5 128GB (2x64GB) DDR5-6000 CL36 Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),6000MT/s,CL36,1.25V,288-pin DIMM,,,2025,24150,3450
+Crucial CP2K64G56C46U5 128GB (2x64GB) DDR5-5600 CL46 Black,ram(内存),Crucial,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),5600MT/s,CL46,,288-pin DIMM,,,2025,12967,1852
+Corsair Vengeance RGB 128GB (2x64GB) DDR5 6400 CL42 Black,ram(内存),Corsair,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"BLACK, RGB",,,,,128GB (2×64GB),6400MT/s,CL42,1.35V,288-pin DIMM,,,2025,12250,1750
+Crucial CT2K64G56C46U5 128GB (2x64GB) DDR5-5600 CL46 Black,ram(内存),Crucial,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,128GB (2×64GB),5600MT/s,CL46,1.1V,288-pin DIMM,,,2025,11900,1700
+TEAMGROUP T-Create Expert 128GB (2x64GB) DDR5-6400 CL42 Black / Gold,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"BLACK, GOLD",,,,,128GB (2×64GB),6400MT/s,CL42,1.25V,288-pin DIMM,,,2025,11550,1650
+ADATA XPG ARMAX DDR5-6000 64 (2x32GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (2×32GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2025,9800,1400
+ADATA XPG ARMAX RGB DDR5-6000 64 (2x32GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (2×32GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2025,9800,1400
+TEAMGROUP T-Create Expert 96GB (2x48GB) DDR5-6800 CL36 Black,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"BLACK, GOLD",,,,,96GB (2×48GB),6800MT/s,CL36,1.4V,288-pin DIMM,,,2025,9800,1400
+G.Skill Trident Z5 CK RGB DDR5 8800 CL42 48GB (2x24GB) Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,48GB (2×24GB),8800MT/s,CL42,1.45V,288-pin DIMM,,,2025,7700,1100
+G.Skill Trident Z5 CK RGB DDR5 9600 CL46 48GB (2x24GB) Black,ram(内存),G.SKILL,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,48GB (2×24GB),9600MT/s,CL46,1.45V,288-pin DIMM,,,2025,7700,1100
+Corsair Vengeance RGB 64GB (2x32GB) DDR5 6000 CL30 White,ram(内存),Corsair,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"WHITE, GREY",,,,,64GB (2×32GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2025,7140,1020
+TEAMGROUP T-Create Expert 64GB (2x32GB) DDR5-6400 CL30 Black / Gold,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"BLACK, GOLD",,,,,64GB (2×32GB),6400MT/s,CL30,1.4V,288-pin DIMM,,,2025,6825,975
+Crucial CT64G56C46U5 64GB (1x64GB) DDR5-5600 CL46 Black,ram(内存),Crucial,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (1×64GB),5600MT/s,CL46,1.1V,288-pin DIMM,,,2025,5950,850
+Crucial Pro Overclocking 64GB (2x32GB) DDR5-6400 CL40 Black,ram(内存),Crucial,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,64GB (2×32GB),6400MT/s,CL40,,288-pin DIMM,,,2025,5950,850
+TEAMGROUP T-Force Delta RGB 48GB (2x24GB) DDR5-8000 CL38 Black,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,48GB (2×24GB),8000MT/s,CL38,1.4V,288-pin DIMM,,,2025,5950,850
+TEAMGROUP T-Force Delta RGB 48GB (2x24GB) DDR5-8200 CL38 Black,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,48GB (2×24GB),8200MT/s,CL38,1.4V,288-pin DIMM,,,2025,5950,850
+TEAMGROUP T-Force Delta RGB 48GB (2x24GB) DDR5-7600 CL36 Black,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,48GB (2×24GB),7600MT/s,CL36,1.4V,288-pin DIMM,,,2025,5775,825
+TEAMGROUP T-Create Expert 48GB (2x24GB) DDR5-7600 CL36 White,ram(内存),TEAMGROUP,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,WHITE,,,,,48GB (2×24GB),7600MT/s,CL36,1.4V,288-pin DIMM,,,2025,5425,775
+ADATA XPG ARMAX DDR5-6000 32 (2x16GB) CL30 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6000MT/s,CL30,1.4V,288-pin DIMM,,,2025,5250,750
+ADATA XPG ARMAX DDR5-6400 32 (2x16GB) CL32 Black,ram(内存),ADATA,,DDR5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLACK,,,,,32GB (2×16GB),6400MT/s,CL32,1.4V,288-pin DIMM,,,2025,5250,750
+Kingston Fury Renegade 2TB SSD M.2 PCIe 4.0 NVMe,storage(硬盘),Kingston,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,2048MB,2025,2800,400
+Kingston FURY Renegade G5 1.024 TB M.2-2280 SSD PCIe 5.0 x4 NVMe,storage(硬盘),Kingston,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,1024MB,2025,2800,400
+Kingston FURY Renegade G5 2TB M.2-2280 SSD PCIe 5.0 x4 NVMe,storage(硬盘),Kingston,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,2048MB,2025,2625,375
+Western Digital WD_BLACK SN7100 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe,storage(硬盘),Western Digital,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,64MB,2025,2212,316
+Samsung 990 EVO Plus 4TB SSD M.2-2280 PCIe 5.0 X2 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x2,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,M.2-2280,是,,2024,3913,559
+Kingston NV3 4TB SSD M.2 NVMe PCIe 4.0,storage(硬盘),Kingston,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,M.2-2280,是,64MB,2024,3630,519
+Seagate IronWolf ST16000VN001 - hard drive - 16 TB - SATA 6Gb/s,storage(硬盘),Seagate Technology,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,16000GB,,,,"3.5""",,,2024,3500,500
+Seagate FireCuda 520 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive,storage(硬盘),Seagate,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2024,2625,375
+Samsung 990 EVO Plus 2TB SSD M.2 PCIe 5.0 X2 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x2,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2024,2520,360
+SAMSUNG 980 PRO M.2 2280 500GB PCI-Express SSD,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,500GB,,,,M.2-2280,是,,2024,1925,275
+Samsung 990 EVO Plus 1TB M.2-2280 SSD PCIe 5.0 X2 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x2,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2024,1659,237
+Crucial T705 1TB PCIe Gen5 NVMe M.2 SSD with Heatsink,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 5.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2024,1575,225
+Kingston NV3 PCIe 4.0 NVMe SSD 2280 1TB,storage(硬盘),Kingston Technology,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,64MB,2024,1575,225
+Rocket NVMe 4.0 SSD - 2TB M.2 2280 PCIe 4.0 NVMe TLC SSD + Heatsink,storage(硬盘),Sabrent,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2023,2450,350
+SABRENT 1TB Rocket NVMe 4.0 Gen4 PCIe M.2 Internal SSD Extreme Performance Solid State Drive (SB-ROCKET-NVMe4-1TB),storage(硬盘),Sabrent,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,1024MB,2023,1575,225
+Samsung 990 Pro 4TB M.2 SSD PCIe 4.0 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,M.2-2280,是,4096MB,2022,6945,992
+Sabrent Rocket 4 Plus G 4TB M.2 SSD PCIe 4.0 NVMe,storage(硬盘),Sabrent,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,M.2-2280,是,2048MB,2022,3850,550
+Corsair 2TB Force Series MP600 M.2 PCIe NVMe SSD,storage(硬盘),Corsair,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2022,3675,525
+Force Series Gen.4 PCIe MP600 2TB NVMe M.2 SSD,storage(硬盘),Corsair,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2022,3675,525
+Samsung 990 Pro w/Heatsink 2TB SSD M.2-2280 PCIe 4.0 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,2048MB,2022,3283,469
+"WD Red Plus Internal NAS HDD 3.5"" - 8TB",storage(硬盘),Western Digital,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,8000GB,,,,"3.5""",,,2022,2800,400
+Samsung 990 Pro 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,2048MB,2022,2729,390
+Crucial P3 Plus 2TB M.2-2280 SSD PCIe 4.0 NVMe,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2022,2422,346
+WD_BLACK 3.5-Inch Gaming Hard Drive - 2TB,storage(硬盘),Western Digital,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,"3.5""",,,2022,1785,255
+Crucial P3 Plus 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2022,1750,250
+Samsung 990 Pro 1TB SSD M.2 PCIe 4.0 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,1024MB,2022,1680,240
+Seagate IronWolf NAS 4TB Internal Hard Drive,storage(硬盘),Seagate,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,"3.5""",,,2022,1575,225
+Silicon Power 1TB NVMe PCIe Gen3 x4 M.2 2280 SSD (SU001TBP34A60M28SN),storage(硬盘),Silicon Power,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,1024GB,,,,M.2-2280,是,,2022,1120,160
+WD_BLACK Gaming Internal Hard Drive,storage(硬盘),WD_BLACK,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,500GB,,,,"3.5""",,,2022,350,50
+"Seagate IronWolf Pro, 20TB NAS Internal HDD –CMR 3.5 Inch SATA 6 Gb/s, 7,200 RPM, 256MB Cache for RAID Network Attached Storage, Rescue Services (ST20000NEZ00/000)",storage(硬盘),Seagate,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,20000GB,,,,"3.5""",,,2021,4900,700
+Rocket Q NVMe SSD,storage(硬盘),Sabrent,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,4000GB,,,,M.2-2280,是,,2021,3500,500
+970 PRO NVMe® M.2 SSD 1TB,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,1024GB,,,,M.2-2280,是,,2021,2800,400
+"SAMSUNG 980 M.2 2280 1TB PCI-Express 3.0 x4, NVMe 1.4 V-NAND MLC Internal Solid State Drive (SSD) MZ-V8V1T0B/AM",storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2021,2800,400
+Samsung 980 SSD 500GB M.2 NVMe Interface PCIe 3.0 x4 Internal Solid State Drive with V-NAND 3 bit MLC Technology,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,500GB,,,,M.2-2280,是,,2021,1750,250
+"SanDisk SSD PLUS 2.5"" 120GB SATA III 3D NAND Internal Solid State Drive (SSD)",storage(硬盘),SanDisk,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,120GB,,,,"2.5""",,,2021,420,60
+Ultrastar DC HC330 - 10TB,storage(硬盘),Western Digital,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,10000GB,,,,"3.5""",,,2020,3811,544
+Seagate IronWolf 12TB NAS Internal Hard Drive HDD – CMR 3.5 Inch SATA 6Gb/s 7200 RPM 256MB Cache for RAID Network Attached Storage,storage(硬盘),Seagate,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,12000GB,,,,"3.5""",,,2020,3675,525
+Samsung 980 PRO PCIe 4.0 NVMe SSD 1TB,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 4.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2020,3325,475
+Seagate IronWolf 8TB NAS Internal Hard Drive HDD – 3.5 Inch SATA 6Gb/s 7200 RPM 256MB Cache for RAID Network Attached Storage,storage(硬盘),Seagate,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,8000GB,,,,"3.5""",,,2020,2800,400
+Crucial P5 2TB 3D NAND NVMe Internal SSD,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,2000GB,,,,M.2-2280,是,,2020,2625,375
+MP400 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive,storage(硬盘),Corsair,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2020,2100,300
+Crucial MX500 500GB 3D NAND SATA 2.5-inch Internal SSD,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,500GB,,,,"2.5""",,,2020,1190,170
+980 PRO 250GB Internal Gaming SSD PCIe Gen 4 x4 NVMe,storage(硬盘),Samsung,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,250GB,,,,M.2-2280,是,,2020,1120,160
+TEAMGROUP MP33 1TB M.2-2280 SSD PCIe 3.0 x4 NVMe,storage(硬盘),TEAMGROUP,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,1000GB,,,,M.2-2280,是,,2020,1120,160
+Crucial P5 500GB NVMe M.2 SSD,storage(硬盘),Crucial,,SSD,,,,,,,,,,,,,,,,,,,,,M.2 PCIe 3.0 x4,,,,,,,,,,,,,,,,,,,,,,,500GB,,,,M.2-2280,是,,2020,1050,150
+Kingston A400 480GB Internal SSD M.2 2280 SA400M8/480G - Increase Performance,storage(硬盘),Kingston,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,480GB,,,,M.2-2280,,,2020,840,120
+"Seagate IronWolf NAS 10 TB 3.5"" 7200 RPM Internal Hard Drive",storage(硬盘),Seagate,,HDD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,10GB,,,,"3.5""",,,2020,105,15
+"Mushkin Source HC 16 TB 2.5"" SSD SATA 6.0 Gb/s",storage(硬盘),Mushkin,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,16000GB,,,,"2.5""",,,,112870,16124
+"Intel D3-S4510 7.68TB SSD 2.5"" SATA",storage(硬盘),Intel,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,7000GB,,,,"2.5""",,,,34965,4995
+"Intel D3-S4610 7.68 TB SSD 2.5"" SATA 6.0 Gb/s",storage(硬盘),Intel,,SSD,,,,,,,,,,,,,,,,,,,,,SATA 6.0 Gb/s,,,,,,,,,,,,,,,,,,,,,,,7000GB,,,,"2.5""",,,,32025,4575

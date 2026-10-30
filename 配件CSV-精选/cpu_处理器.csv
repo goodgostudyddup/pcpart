@@ -1,0 +1,151 @@
+﻿名称,厂商,系列,插槽,微架构,核心家族,核心,频率,缓存(L2/L3),TDP,核显,最大内存,年份,价格人民币元,价格美元
+AMD Ryzen 9 9950X3D2,AMD,Ryzen 9 9000,AM5,Zen 5,Granite Ridge,16核32线程,4.3-5.6GHz,L2 16MB / L3 192MB,200W,AMD Radeon Graphics,256GB,2026,6223,889
+AMD Ryzen 7 9850X3D,AMD,Ryzen 7 9000,AM5,Zen 5,Granite Ridge,8核16线程,4.7-5.6GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,256GB,2026,3388,484
+AMD Ryzen 7 7700X3D,AMD,Ryzen 7 7000,AM5,Zen 4,Raphael,8核16线程,4-4.5GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,128GB,2026,2303,329
+Intel Core Ultra 7 270K Plus,Intel,Core Ultra 7 200,LGA 1851,Arrow Lake Refresh,Lion Cove / Skymont,24核24线程(P8+E16),3.7-5.5GHz,L2 40MB / L3 36MB,125W,Intel Graphics,256GB,2026,2240,320
+Intel Core Ultra 5 250K Plus,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake Refresh,Lion Cove / Skymont,18核18线程(P6+E12),4.2-5.3GHz,L2 30MB / L3 30MB,125W,Intel Graphics,256GB,2026,1533,219
+Intel Core Ultra 5 250KF Plus,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake Refresh,Lion Cove / Skymont,18核18线程(P6+E12),4.2-5.3GHz,L2 30MB / L3 30MB,125W,,256GB,2026,1400,200
+AMD Ryzen Threadripper PRO 9995WX,AMD,Ryzen Threadripper PRO 9000,sTR5,Zen 5,Shimada Peak,96核192线程,2.5-5.4GHz,L2 96MB / L3 384MB,350W,,2048GB,2025,80150,11450
+AMD Ryzen Threadripper 9985WX,AMD,Ryzen Threadripper PRO 9000,sTR5,Zen 5,Shimada Peak,64核128线程,3.2-5.4GHz,L2 64MB / L3 256MB,350W,,2048GB,2025,55258,7894
+AMD Ryzen Threadripper 9980X,AMD,Ryzen Threadripper 9000,sTR5,Zen 5,Shimada Peak,64核128线程,3.2-5.4GHz,L2 64MB / L3 256MB,350W,,1024GB,2025,33718,4817
+AMD Ryzen Threadripper PRO 9975WX,AMD,Ryzen Threadripper PRO 9000,sTR5,Zen 5,Shimada Peak,32核64线程,4-5.4GHz,L2 32MB / L3 128MB,350W,,2048GB,2025,27300,3900
+AMD Ryzen Threadripper PRO 9965WX,AMD,Ryzen Threadripper PRO 9000,sTR5,Zen 5,Shimada Peak,24核48线程,4.2-5.4GHz,L2 24MB / L3 128MB,350W,,2GB,2025,18900,2700
+AMD Ryzen Threadripper 9970X,AMD,Ryzen Threadripper 9000,sTR5,Zen 5,Shimada Peak,32核64线程,4-5.4GHz,L2 32MB / L3 128MB,350W,,1024GB,2025,16450,2350
+AMD Ryzen Threadripper PRO 9955WX,AMD,Ryzen PRO 9000,sTR5,Zen 5,Shimada Peak,16核32线程,4.5-5.4GHz,L2 16MB / L3 64MB,350W,,2048GB,2025,10843,1549
+AMD Ryzen Threadripper 9960X,AMD,Ryzen Threadripper 9000,sTR5,Zen 5,Shimada Peak,24核48线程,4.2-5.4GHz,L2 24MB / L3 128MB,350W,,1024GB,2025,10493,1499
+AMD Ryzen Threadripper PRO 9945WX,AMD,Ryzen Threadripper PRO 9000,sTR5,Zen 5,Shimada Peak,12核24线程,4.7-5.4GHz,L2 12MB / L3 64MB,350W,,2048GB,2025,6475,925
+Intel Core Ultra 9 285,Intel,Core Ultra 9 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,24核24线程(P8+E16),2.5-5.6GHz,L2 40MB / L3 36MB,65W,Intel Graphics,256GB,2025,4620,660
+AMD Ryzen 9 9950X3D,AMD,Ryzen 9 9000,AM5,Zen 5,Granite Ridge,16核32线程,4.3-5.7GHz,L2 16MB / L3 128MB,170W,AMD Radeon Graphics,256GB,2025,4606,658
+AMD Ryzen 9 9900X3D,AMD,Ryzen 9 9000,AM5,Zen 5,Granite Ridge,12核24线程,4.4-5.5GHz,L2 12MB / L3 128MB,120W,AMD Radeon Graphics,256GB,2025,3521,503
+Intel Core Ultra 7 265,Intel,Core Ultra 7 200,LGA 1851,Arrow Lake,Lion Cove,20核20线程(P8+E12),2.4-5.3GHz,L2 36MB / L3 30MB,65W,Intel Xe Graphics,256GB,2025,2894,413
+Intel Core Ultra 7 265F,Intel,Core Ultra 7 200,LGA 1851,Arrow Lake,Arrow Lake-S,20核20线程(P8+E12),2.4-5.3GHz,L2 36MB / L3 30MB,65W,,256GB,2025,2505,358
+Intel Core Ultra 5 235,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake,Arrow Lake-S,14核14线程(P6+E8),3.4-5GHz,L2 26MB / L3 24MB,65W,Intel Xe Graphics,256GB,2025,2100,300
+AMD Ryzen 5 7500X3D,AMD,Ryzen 5 7000,AM5,Zen 4,Raphael,6核12线程,4-4.5GHz,L2 6MB / L3 96MB,65W,AMD Radeon Graphics,128GB,2025,1813,259
+AMD Ryzen 5 9600,AMD,Ryzen 5 9000,AM5,Zen 5,Granite Ridge,6核12线程,3.8-5.2GHz,L2 6MB / L3 32MB,65W,AMD Radeon Graphics,256GB,2025,1649,236
+Intel Core Ultra 5 225,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake,Arrow Lake-S,10核10线程(P6+E4),3.3-4.9GHz,L2 22MB / L3 20MB,65W,Intel Xe Graphics,256GB,2025,1250,179
+Intel Core Ultra 5 225F,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,10核10线程(P6+E4),3.3-4.9GHz,L2 22MB / L3 20MB,65W,,256GB,2025,1001,143
+AMD EPYC 4584PX,AMD,EPYC 4000,AM5,Zen 4,Raphael,16核32线程,4.2-5.7GHz,L2 16MB / L3 128MB,120W,AMD Radeon Graphics,256GB,2024,4725,675
+Intel Core i9 14900,Intel,Core i9 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove,24核32线程(P8+E16),2-5.8GHz,L2 32MB / L3 36MB,65W,Intel UHD Graphics 770,192GB,2024,4339,620
+AMD EPYC 4564P,AMD,EPYC 4000,AM5,Zen 4,Raphael,16核32线程,4.5-5.7GHz,L2 16MB / L3 64MB,170W,AMD Radeon Graphics,192GB,2024,4200,600
+Intel Core i9-14900KS,Intel,Core i9 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),3.2-5.7GHz,L2 32MB / L3 36MB,150W,Intel UHD 770,192GB,2024,4060,580
+Intel Core i9 14900F,Intel,Core i9 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),2-5.8GHz,L2 32MB / L3 36MB,65W,,192GB,2024,3996,571
+AMD EPYC 4484PX OEM/Tray,AMD,EPYC 4000,AM5,Zen 4,Raphael,12核24线程,4.4-5.6GHz,L2 12MB / L3 128MB,120W,AMD Radeon Graphics,192GB,2024,3675,525
+Intel Core Ultra 9 285K,Intel,Core Ultra 9 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,24核24线程(P8+E16),3.7-5.5GHz,L2 40MB / L3 36MB,125W,Intel Graphics,256GB,2024,3675,525
+AMD Ryzen 9 9950X,AMD,Ryzen 9 9000,AM5,Zen 5,Granite Ridge,16核32线程,4.3-5.7GHz,L2 16MB / L3 64MB,170W,AMD Radeon Graphics,256GB,2024,3500,500
+AMD Ryzen 7 9800X3D,AMD,Ryzen 7 9000,AM5,Zen 5,Granite Ridge,8核16线程,4.7-5.2GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,256GB,2024,3143,449
+Intel Core Ultra 7 265KF,Intel,Core Ultra 7 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,20核20线程(P8+E12),3.9-5.5GHz,L2 36MB / L3 30MB,125W,,256GB,2024,3008,430
+Intel Core i7 14700,Intel,Core i7 14000,LGA 1700,Raptor Lake Refresh,Raptor Lake Refresh,20核28线程(P8+E12),2.1-5.4GHz,L2 28MB / L3 33MB,65W,Intel UHD Graphics 770,192GB,2024,2657,380
+AMD EPYC 4464P,AMD,EPYC  4000,AM5,Zen 4,Raphael,12核24线程,3.7-5.4GHz,L2 12MB / L3 64MB,65W,AMD Radeon Graphics,192GB,2024,2625,375
+AMD Ryzen 9 9900X,AMD,Ryzen 9 9000,AM5,Zen 5,Granite Ridge,12核24线程,4.4-5.6GHz,L2 12MB / L3 64MB,120W,AMD Radeon Graphics,256GB,2024,2317,331
+Intel Core i7 14700F,Intel,Core i7 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,20核28线程(P8+E12),2.1-5.4GHz,L2 28MB / L3 33MB,65W,,192GB,2024,2310,330
+AMD Ryzen 9 5900XT,AMD,Ryzen 9 5000,AM4,Zen 3,Vermeer,16核32线程,3.3-4.8GHz,L2 8MB / L3 64MB,105W,,128GB,2024,2157,308
+AMD Ryzen 7 9700X,AMD,Ryzen 7 9000,AM5,Zen 5,Granite Ridge,8核16线程,3.8-5.5GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,256GB,2024,2065,295
+AMD EPYC 4364P,AMD,EPYC 4004,AM5,Zen 4,Raphael,8核16线程,4.5-5.4GHz,L2 8MB / L3 32MB,105W,AMD Radeon Graphics,192GB,2024,1925,275
+AMD Ryzen 7 5700X3D,AMD,Ryzen 7 5000,AM4,Zen 3,Vermeer,8核16线程,3-4.1GHz,L2 4MB / L3 96MB,105W,,128GB,2024,1925,275
+Intel Core i5 14500,Intel,Core i5 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,14核20线程(P6+E8),2.6-5GHz,L2 11.5MB / L3 24MB,65W,Intel UHD Graphics 770,192GB,2024,1868,267
+AMD Ryzen 7 8700G,AMD,Ryzen 7 8000,AM5,Zen 4,Phoenix,8核16线程,4.2-5.1GHz,L2 8MB / L3 16MB,65W,AMD Radeon 780M,256GB,2024,1855,265
+AMD Ryzen 5 7600X3D,AMD,Ryzen 5 7000,AM5,Zen 4,Raphael,6核12线程,4.1-4.7GHz,L2 6MB / L3 96MB,65W,AMD Radeon Graphics,128GB,2024,1750,250
+Intel Core i5 14500T OEM/Tray,Intel,Core i5 14000,LGA 1700,Raptor Lake,Raptor Cove + Gracemont,14核20线程(P6+E8),1.7-4.8GHz,L2 11.5MB / L3 24MB,35W,Intel UHD Graphics 770,192GB,2024,1750,250
+AMD Ryzen 7 5800XT,AMD,Ryzen 7 5000,AM4,Zen 3,Vermeer,8核16线程,3.8-4.8GHz,L2 4MB / L3 32MB,105W,,128GB,2024,1673,239
+AMD EPYC 4344P,AMD,EPYC 4004,AM5,Zen 4,Raphael,8核16线程,3.8-5.3GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,192GB,2024,1575,225
+Intel Core i5 14400,Intel,Core i5 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,10核16线程(P6+E4),2.5-4.7GHz,L2 9.5MB / L3 20MB,65W,Intel UHD Graphics 730,192GB,2024,1419,203
+AMD Ryzen 7 8700F,AMD,Ryzen 7 8000,AM5,Zen 4,Phoenix,8核16线程,4.1-5GHz,L2 8MB / L3 16MB,65W,,256GB,2024,1400,200
+AMD EPYC 4244P,AMD,EPYC 4004,AM5,Zen 4,Raphael,6核12线程,3.8-5.1GHz,L2 6MB / L3 32MB,65W,AMD Radeon Graphics,192GB,2024,1330,190
+Intel Core Ultra 5 245K,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,14核14线程(P6+E8),4.2-5.2GHz,L2 26MB / L3 24MB,125W,Intel Xe-LPG Graphics,256GB,2024,1330,190
+AMD Ryzen 5 8600G,AMD,Ryzen 5 8000,AM5,Zen 4,Phoenix,6核12线程,4.3-5GHz,L2 6MB / L3 16MB,65W,AMD Radeon 760M,256GB,2024,1302,186
+AMD Ryzen 5 5600GT,AMD,Ryzen 5 5000,AM4,Zen 3,Cezanne,6核12线程,3.6-4.6GHz,L2 3MB / L3 16MB,65W,AMD Radeon Vega 7,128GB,2024,1295,185
+AMD Ryzen 5 5600XT,AMD,Ryzen 5 5000,AM4,Zen 3,Vermeer,6核12线程,3.7-4.7GHz,L2 3MB / L3 32MB,65W,,128GB,2024,1260,180
+Intel Core i5 14400F,Intel,Core i5 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,10核16线程(P6+E4),2.5-4.7GHz,L2 9.5MB / L3 20MB,65W,,192GB,2024,1253,179
+Intel Core Ultra 5 245KF,Intel,Core Ultra 5 200,LGA 1851,Arrow Lake,Lion Cove / Skymont,14核14线程(P6+E8),4.2-5.2GHz,L2 26MB / L3 24MB,125W,,256GB,2024,1246,178
+AMD Ryzen 5 9600X,AMD,Ryzen 5 9000,AM5,Zen 5,Granite Ridge,6核12线程,3.9-5.4GHz,L2 6MB / L3 32MB,65W,AMD Radeon Graphics,256GB,2024,1229,176
+AMD Ryzen 5 5600XT OEM/Tray,AMD,Ryzen 5 5000,AM4,Zen 3,Vermeer,6核12线程,3.7-4.7GHz,L2 3MB / L3 32MB,65W,,128GB,2024,1190,170
+AMD Ryzen 5 5600T,AMD,Ryzen 5 5000,AM4,Zen 3,Vermeer,6核12线程,3.5-4.5GHz,L2 3MB / L3 32MB,65W,,128GB,2024,1120,160
+AMD Ryzen 5 5600T OEM/Tray,AMD,Ryzen 5 5000,AM4,Zen 3,Vermeer,6核12线程,3.5-4.5GHz,L2 3MB / L3 32MB,65W,,128GB,2024,1120,160
+AMD Ryzen 5 8400F,AMD,Ryzen 5 8000,AM5,Zen 4,Phoenix,6核12线程,4.2-4.7GHz,L2 6MB / L3 16MB,65W,,256GB,2024,1043,149
+AMD Ryzen 5 8500G,AMD,Ryzen 5 8000,AM5,"2x Zen 4 , 4x Zen 4c",Phoenix,6核12线程(P2+E4),4.1-5GHz,L2 6MB / L3 16MB,65W,AMD Radeon 740M,256GB,2024,1029,147
+Intel Core i3 14100,Intel,Core i3 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove,4核8线程,3.5-4.7GHz,L2 5MB / L3 12MB,60W,Intel UHD Graphics 730,192GB,2024,1001,143
+AMD Ryzen 5 5500GT,AMD,Ryzen 5 5000,AM4,Zen 3,Cezanne,6核12线程,3.6-4.4GHz,L2 3MB / L3 16MB,65W,AMD Radeon Vega 7,128GB,2024,980,140
+Intel Core i3 14100F,Intel,Core i3 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove,4核8线程,3.5-4.7GHz,L2 5MB / L3 12MB,58W,,192GB,2024,735,105
+AMD Ryzen Threadripper PRO 7995WX,AMD,Ryzen Threadripper PRO 7000,sTR5,Zen 4,Storm Peak,96核192线程,2.5-5.1GHz,L2 96MB / L3 384MB,350W,,2048GB,2023,69300,9900
+AMD Ryzen Threadripper PRO 7985WX,AMD,Ryzen Threadripper PRO 7000,sTR5,Zen 4,Storm Peak,64核128线程,3.2-5.1GHz,L2 64MB / L3 256MB,350W,,2GB,2023,28350,4050
+AMD Ryzen Threadripper PRO 7975WX,AMD,AMD Ryzen Threadripper PRO 7000 WX,sTR5,Zen 4,Storm Peak,32核64线程,4-5.3GHz,L2 32MB / L3 128MB,350W,,2048GB,2023,26600,3800
+AMD Ryzen Threadripper 7980X,AMD,Ryzen Threadripper 7000,sTR5,Zen 4,Storm Peak,64核128线程,3.2-5.1GHz,L2 64MB / L3 256MB,350W,,1024GB,2023,25200,3600
+AMD Ryzen Threadripper PRO 7965WX,AMD,Threadripper PRO 7000,sTR5,Zen 4,Storm Peak,24核48线程,4.2-5.3GHz,L2 24MB / L3 128MB,350W,,2048GB,2023,18200,2600
+AMD Ryzen Threadripper 7970X,AMD,Ryzen Threadripper 7000 Series,sTR5,Zen 4,Storm Peak,32核64线程,4-5.3GHz,L2 32MB / L3 128MB,350W,,1024GB,2023,13664,1952
+AMD Ryzen Threadripper PRO 7955WX,AMD,Threadripper PRO 7000,sTR5,Zen 4,Storm Peak,16核32线程,4.5-5.3GHz,L2 16MB / L3 64MB,350W,,2048GB,2023,10978,1568
+AMD Ryzen Threadripper 7960X,AMD,Ryzen Threadripper 7000,sTR5,Zen 4,Storm Peak,24核48线程,4.2-5.3GHz,L2 24MB / L3 128MB,350W,,1024GB,2023,7840,1120
+AMD Ryzen Threadripper PRO 7945WX,AMD,Ryzen Threadripper PRO 7000,sTR5,Zen 4,Storm Peak,12核24线程,4.7-5.3GHz,L2 12MB / L3 64MB,350W,,2048GB,2023,5950,850
+AMD Ryzen 9 7900X3D,AMD,Ryzen 9 7000,AM5,Zen 4,Raphael,12核24线程,4.4-5.6GHz,L2 12MB / L3 128MB,120W,AMD Radeon Graphics,128GB,2023,4900,700
+Intel Core i9 13900,Intel,Core i9 13000,LGA 1700,Raptor Lake,Raptor Lake,24核32线程(P8+E16),2-5.6GHz,L2 32MB / L3 36MB,65W,Intel UHD Graphics 770,192GB,2023,4900,700
+Intel Core i9 13900KS,Intel,Core i9 13000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),3.2-6GHz,L2 32MB / L3 36MB,150W,Intel UHD Graphics 770,192GB,2023,4690,670
+AMD Ryzen 9 7950X3D,AMD,Ryzen 9 7000,AM5,Zen 4,Raphael,16核32线程,4.2-5.7GHz,L2 16MB / L3 128MB,120W,AMD Radeon Graphics,128GB,2023,4130,590
+AMD Ryzen 7 7800X3D OEM/Tray,AMD,Ryzen 7 7000,AM5,Zen 4,Raphael,8核16线程,4.2-5GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,128GB,2023,3938,563
+Intel Core i9-14900K,Intel,Core i9 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),3.2-5.6GHz,L2 32MB / L3 36MB,125W,Intel UHD Graphics 770,192GB,2023,3230,461
+Intel Core i9 13900F,Intel,Core i9 13000,LGA 1700,Raptor Lake,Raptor Lake-S,24核32线程(P8+E16),2-5.6GHz,L2 32MB / L3 36MB,65W,,192GB,2023,3213,459
+Intel Core i9-13900F,Intel,Core i9 13000,LGA 1700,Raptor Lake,Raptor Lake-S,24核32线程(P8+E16),2-5.2GHz,L2 32MB / L3 36MB,65W,,192GB,2023,3213,459
+Intel Core i9-14900KF,Intel,Core i9 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,24核32线程(P8+E16),3.2-6GHz,L2 32MB / L3 36MB,125W,,192GB,2023,3046,435
+AMD Ryzen 9 PRO 7945 OEM/Tray,AMD,Ryzen 9 PRO 7000,AM5,Zen 4,Raphael,12核24线程,3.7-5.4GHz,L2 12MB / L3 64MB,65W,AMD Radeon Graphics,128GB,2023,2625,375
+Intel Core i9 13900T OEM/Tray,Intel,Core i9 13000,LGA 1700,Raptor Lake,Raptor Cove / Gracemont,24核32线程(P8+E16),1.1-5.3GHz,L2 32MB / L3 36MB,35W,Intel UHD Graphics 770,192GB,2023,2625,375
+Intel Core i7 14700K,Intel,Core i7 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,20核28线程(P8+E12),3.4-5.5GHz,L2 28MB / L3 33MB,125W,Intel UHD 770,192GB,2023,2562,366
+AMD Ryzen 9 7900,AMD,Ryzen 9 7000,AM5,Zen 4,Raphael,12核24线程,3.7-5.4GHz,L2 12MB / L3 64MB,65W,AMD Radeon Graphics,128GB,2023,2520,360
+Intel Core i7 14700KF,Intel,Core i7 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,20核28线程(P8+E12),3.4-5.5GHz,L2 28MB / L3 33MB,125W,,192GB,2023,2485,355
+Intel Core i7 13700,Intel,Core i7 13000,LGA 1700,Raptor Lake,Raptor Lake-S,16核24线程(P8+E8),2.1-5.2GHz,L2 24MB / L3 30MB,65W,Intel UHD Graphics 770,192GB,2023,2450,350
+AMD Ryzen 7 7800X3D,AMD,Ryzen 7 7000,AM5,Zen 4,Raphael,8核16线程,4.2-5GHz,L2 8MB / L3 96MB,120W,AMD Radeon Graphics,128GB,2023,2443,349
+AMD Ryzen 7 7700,AMD,Ryzen 7 7000,AM5,Zen 4,Raphael,8核16线程,3.8-5.3GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,128GB,2023,2305,329
+Intel Core i7 13700F,Intel,Core i7 13000,LGA 1700,Raptor Lake,Raptor Cove / Gracemont,16核24线程(P8+E8),2.1-5.2GHz,L2 24MB / L3 30MB,65W,,192GB,2023,2275,325
+Intel Core i5 13400,Intel,Core i5 13000,LGA 1700,Raptor Lake,Raptor Cove / Gracemont,10核16线程(P6+E4),2.5-4.6GHz,L2 9.5MB / L3 20MB,65W,Intel UHD Graphics 730,192GB,2023,2240,320
+Intel Core i5 13600,Intel,Core i5 13000,LGA 1700,Raptor Lake,Raptor Cove,14核20线程(P6+E8),2.7-5GHz,L2 11.5MB / L3 24MB,65W,Intel UHD Graphics 770,192GB,2023,2100,300
+Intel Core i7-13700T,Intel,Core i7 13000,LGA 1700,Raptor Lake,Raptor Lake-S,16核24线程(P8+E8),1.4-4.9GHz,L2 24MB / L3 30MB,35W,UHD 770,192GB,2023,2100,300
+Intel Core i5 13500,Intel,Core i5 13000,LGA 1700,Raptor Lake,Raptor Lake-S,14核20线程(P6+E8),2.5-4.8GHz,L2 11.5MB / L3 24MB,65W,Intel UHD Graphics 770,192GB,2023,1925,275
+AMD Ryzen 5 5600X3D,AMD,Ryzen 5 5000,AM4,Zen 3,Vermeer,6核12线程,3.3-4.4GHz,L2 3MB / L3 96MB,105W,,128GB,2023,1750,250
+Intel Core i5 14600K,Intel,Core i5 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,14核20线程(P6+E8),3.5-5.3GHz,L2 20MB / L3 24MB,125W,Intel UHD Graphics 770,192GB,2023,1750,250
+Intel Core i5 13400F,Intel,Core i5 13000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,10核16线程(P6+E4),2.5-4.6GHz,L2 9.5MB / L3 20MB,65W,,192GB,2023,1715,245
+Intel Core i5 14600KF,Intel,Intel Core i5 14000,LGA 1700,Raptor Lake Refresh,Raptor Cove / Gracemont,14核20线程(P6+E8),3.5-5.3GHz,L2 20MB / L3 24MB,125W,,192GB,2023,1680,240
+AMD Ryzen 5 7600,AMD,Ryzen 5 7000,AM5,Zen 4,Raphael,6核12线程,3.8-5.1GHz,L2 6MB / L3 32MB,65W,AMD Radeon Graphics,128GB,2023,1584,226
+AMD Ryzen 7 PRO 7745,AMD,Ryzen 7 PRO 7000,AM5,Zen 4,Raphael,8核16线程,3.8-5.3GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,128GB,2023,1575,225
+AMD Ryzen 7 PRO 7745 OEM/Tray,AMD,Ryzen 7 PRO 7000,AM5,Zen 4,Raphael,8核16线程,3.8-5.3GHz,L2 8MB / L3 32MB,65W,AMD Radeon Graphics,128GB,2023,1575,225
+Intel Core i5 13500T OEM/Tray,Intel,Core i5 13000,LGA 1700,Raptor Lake,Raptor Lake-S,14核20线程(P6+E8),1.6-4.6GHz,L2 11.5MB / L3 24MB,35W,Intel UHD Graphics 770,192GB,2023,1575,225
+Intel Core i3 13100,Intel,Core i3 13000,LGA 1700,Raptor Lake,Raptor Lake-S,4核8线程,3.4-4.5GHz,L2 5MB / L3 12MB,60W,Intel UHD Graphics 730,192GB,2023,770,110
+Intel Core i3 13100F,Intel,Core i3 13000,LGA 1700,Raptor Lake,Raptor Cove,4核8线程,3.4-4.5GHz,L2 5MB / L3 12MB,58W,,192GB,2023,770,110
+Intel Core i3 13100T OEM/Tray,Intel,Core i3 13000,LGA 1700,Raptor Lake,Raptor Cove,4核8线程,2.5-4.2GHz,L2 5MB / L3 12MB,35W,Intel UHD Graphics 730,192GB,2023,630,90
+Intel Core i9 11900K,Intel,Core i9 11000,LGA 1200,Rocket Lake,Cypress Cove,8核16线程,3.5-5.3GHz,L2 4MB / L3 16MB,125W,Intel UHD Graphics 750,128GB,2021,3841,549
+Intel Core i7 11700K,Intel,Core i7 11000,LGA 1200,Rocket Lake,Cypress Cove,8核16线程,3.6-5GHz,L2 4MB / L3 16MB,125W,Intel UHD Graphics 750,128GB,2021,3080,440
+Intel Core i9 11900KF,Intel,Core i9 11000,LGA 1200,Rocket Lake,Cypress Cove,8核16线程,3.5-5.3GHz,L2 4MB / L3 16MB,125W,,128GB,2021,2793,399
+Intel Core i7 11700KF,Intel,Core i7 11000,LGA 1200,Rocket Lake,Rocket Lake-S,8核16线程,3.6-5GHz,L2 4MB / L3 16MB,125W,,128GB,2021,2660,380
+Intel Core i9 11900,Intel,Core i9 11000,LGA 1200,Rocket Lake,Cypress Cove,8核16线程,2.5-5.2GHz,L2 4MB / L3 16MB,65W,Intel UHD Graphics 750,128GB,2021,2100,300
+AMD Ryzen Threadripper 3990X,AMD,Ryzen Threadripper 3000,sTRX4,Zen 2,Castle Peak,64核128线程,2.9-4.3GHz,L2 32MB / L3 256MB,280W,,256GB,2020,23103,3300
+Intel Core i9 7900X 3.3 GHz 10-Core LGA2066,Intel,,LGA 2066,Skylake,Skylake-X,10核20线程,3.3-4.5GHz,L2 10MB / L3 75MB,140W,,128GB,,2800,400
+Intel Core i9 7960X 2.8 GHz 16-Core LGA2066 OEM/Tray,Intel,,LGA 2066,Skylake,Skylake-X,16核32线程,2.8-4.4GHz,L2 16MB / L3 22MB,165W,,128GB,,2800,400
+Intel Core i9 7940X 3.1 GHz 14-Core LGA2066 OEM/Tray,Intel,,LGA 2066,Skylake,Skylake-X,14核28线程,3.1-4.4GHz,L2 14MB / L3 25MB,165W,,128GB,,2625,375
+Intel Core i9 9920X 3.5 GHz 12-Core LGA2066 OEM/Tray,Intel,,LGA 2066,Skylake,Skylake-X,12核24线程,3.5-4.4GHz,L2 12MB / L3 25MB,165W,,128GB,,2450,350
+Intel Xeon E5 2695 V3 2.3 GHz 14-Core LGA2011-3,Intel,,LGA 2011-3,Haswell,Haswell-EP,14核28线程,2.3-3.3GHz,L2 5MB / L3 35MB,120W,,,,2450,350
+Intel Core i7 7820X,Intel,Core i7 7000,LGA 2066,Skylake,Skylake-X,8核16线程,3.6-4.5GHz,L2 8MB / L3 11MB,140W,,128GB,20117,2380,340
+Intel Xeon E5 2685 V3 2.6 GHz 12-Core LGA2011-3 OEM/Tray,Intel,,LGA 2011-3,Haswell,Haswell-EP,12核24线程,2.6-3.3GHz,L2 3MB / L3 30MB,120W,,,,2100,300
+Intel Core i7 Extreme 6950X 3 GHz 10-Core LGA2011-3,Intel,,LGA 2011-3,Broadwell,Broadwell-E,10核20线程,3-3.5GHz,L2 5MB / L3 25MB,140W,,,,1925,275
+Intel Xeon E5 2687W V3 3.1 GHz 10-Core LGA2011-3 OEM/Tray,Intel,,LGA 2011-3,Haswell,Haswell-EP,10核20线程,3.1-3.5GHz,L2 5MB / L3 25MB,160W,,,,1925,275
+Intel Xeon E 2278G 3.4 GHz 8-Core LGA1151,Intel,,LGA 1151,Coffee Lake Refresh,Coffee Lake Refresh,8核16线程,3.4-5GHz,L2 2MB / L3 16MB,80W,Intel HD Graphics P630,128GB,,1750,250
+Intel Xeon E5 2650L V4 1.7 GHz 14-Core LGA2011-3,Intel,,LGA 2011-3,Broadwell,Broadwell-EP,14核28线程,1.7-2.5GHz,L2 5MB / L3 35MB,65W,,1536GB,,1750,250
+AMD Opteron 6378 2.4 GHz 16-Core G34 OEM/Tray,AMD,,G34,Piledriver,Abu Dhabi,16核16线程,2.4-3.3GHz,L2 16MB / L3 16MB,115W,,,,1575,225
+Intel Xeon E5 2687W 3.1 GHz 8-Core LGA2011,Intel,,LGA 2011,Sandy Bridge,Sandy Bridge-EP,8核16线程,3.1-3.8GHz,L2 2MB / L3 20MB,150W,,,,1575,225
+Intel Xeon E5 2687W 3.1 GHz 8-Core LGA2011 OEM/Tray,Intel,,LGA 2011,Sandy Bridge,Sandy Bridge-EP,8核16线程,3.1-3.8GHz,L2 2MB / L3 20MB,150W,,,,1575,225
+Intel Xeon E5 2690 2.9 GHz 8-Core LGA2011,Intel,,LGA 2011,Sandy Bridge,Sandy Bridge-EP,8核16线程,2.9-3.8GHz,L2 2MB / L3 20MB,135W,,,,1575,225
+Intel Xeon E5 2665 2.4 GHz 8-Core LGA2011 OEM/Tray,Intel,,LGA 2011,Sandy Bridge,Sandy Bridge-EP,8核16线程,2.4-3.1GHz,L2 2MB / L3 20MB,115W,,,,1330,190
+Intel Xeon E 2236 3.4 GHz 6-Core LGA1151,Intel,,LGA 1151,Coffee Lake Refresh,Coffee Lake Refresh,6核12线程,3.4-4.8GHz,L2 5MB / L3 12MB,80W,,128GB,,1260,180
+Intel Xeon E 2246G 3.6 GHz 6-Core LGA1151 OEM/Tray,Intel,,LGA 1151,Coffee Lake Refresh,Coffee Lake Refresh,6核12线程,3.6-4.8GHz,L2 5MB / L3 12MB,80W,Intel HD Graphics P630,128GB,,1260,180
+Intel Xeon E 2276G 3.8 GHz 6-Core LGA1151 (OEM/Tray),Intel,,LGA 1151,Coffee Lake Refresh,Coffee Lake Refresh,6核12线程,3.8-4.9GHz,L2 5MB / L3 12MB,80W,Intel HD Graphics P630,128GB,,1260,180
+Intel Xeon E5 1660 V2 3.7 GHz 6-Core LGA2011 OEM/Tray,Intel,,LGA 2011,Ivy Bridge,Ivy Bridge-EP,6核12线程,3.7-4GHz,L2 5MB / L3 15MB,130W,,,,1260,180
+AMD FX 9370 4.4 GHz 8-Core AM3+,AMD,,AM3+,Piledriver,Vishera,8核8线程,4.4-4.7GHz,L2 8MB / L3 8MB,220W,,,,1190,170
+AMD FX 9370 4.4 GHz 8-Core AM3+ OEM/Tray,AMD,,AM3+,Piledriver,Vishera,8核8线程,4.4-4.7GHz,L2 8MB / L3 8MB,220W,,,,1190,170
+AMD Opteron 6344 2.6 GHz 12-Core G34 OEM/Tray,AMD,,G34,Piledriver,Abu Dhabi,12核12线程,2.6-3.2GHz,L2 12MB / L3 16MB,115W,,,,1190,170
+Intel Xeon E 2146G 3.5 GHz 6-Core LGA1151 OEM/Tray,Intel,,LGA 1151,Coffee Lake,Coffee Lake,6核12线程,3.5-4.5GHz,L2 5MB / L3 12MB,80W,Intel HD Graphics P630,64GB,,1190,170
+AMD Opteron 6328 3.2 GHz 8-Core G34,AMD,,G34,Piledriver,Abu Dhabi,8核8线程,3.2-3.8GHz,L2 8MB / L3 16MB,115W,,,,1050,150
+AMD Opteron Opteron 6328 3.2 GHz 8-Core G34 OEM/Tray,AMD,,G34,Piledriver,Abu Dhabi,8核8线程,3.2-3.8GHz,L2 8MB / L3 16MB,115W,,,,1050,150
+AMD FX FX 8370E 3.3 GHz 8-Core AM3+ OEM/Tray,AMD,,AM3+,Piledriver,Vishera,8核8线程,3.3-4.3GHz,L2 8MB / L3 8MB,95W,,,,910,130
+AMD A-Series A8 7670K 3.6 GHz 4-Core FM2+,AMD,AMD A8,FM2+,Steamroller,Godavari,4核4线程,3.6-3.9GHz,L2 4MB,95W,AMD Radeon R7 (on-die),,,840,120
+AMD A10 7850K 3.7 GHz 4-Core FM2+ OEM/Tray,AMD,,FM2+,Steamroller,Kaveri,4核4线程,3.7-4GHz,L2 4MB,95W,AMD Radeon R7 (on-die),,,840,120
+AMD A8 7670K 3.6 GHz 4-Core FM2+,AMD,,FM2+,Steamroller,Godavari,4核4线程,3.6-3.9GHz,L2 4MB,95W,AMD Radeon R7 (on-die),,,840,120
+AMD Athlon X4 860K 3.7 GHz 4-Core FM2+ OEM/Tray,AMD,,FM2+,Steamroller,Kaveri,4核4线程,3.7-4GHz,L2 4MB,95W,,,,840,120
+AMD Athlon X4 880K 4 GHz 4-Core FM2+ OEM/Tray,AMD,,FM2+,Steamroller,Godavari,4核4线程,4-4.2GHz,L2 4MB,95W,,,,840,120
+AMD A4 6320 3.8 GHz 2-Core FM2,AMD,,FM2,Piledriver,Richland,2核2线程,3.8-4GHz,L2 1MB,65W,AMD Radeon HD 8370D,,,490,70
+Intel Core i5 4690K 3.5 GHz 4-Core LGA1150,Intel,,LGA 1150,Haswell Refresh,Haswell Refresh,4核4线程,3.5-3.9GHz,L2 1MB / L3 6MB,88W,Intel HD Graphics 4600,,,490,70
+AMD A-Series A4 6300B 3.7 GHz 2-Core FM2,AMD,AMD A4,FM2,Piledriver,Richland,2核2线程,3.7-3.9GHz,L2 1MB,65W,AMD Radeon HD 8370D,,,350,50

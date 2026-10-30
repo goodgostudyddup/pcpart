@@ -1,0 +1,7 @@
+chore: 删除已停用的 Python Agent 与 /assistant-api 代理
+
+- 删除 agent/ 目录（Dify 客户端、会话服务、CLI、测试与知识库切分脚本）
+- 删除 AssistantProxyController，页面已改用 Dify 官方嵌入
+- NoCacheFilter 去掉 /assistant-api 分支，ApiControllerTest 移除代理转发用例
+
+Co-authored-by: CommandCodeBot <noreply@commandcode.ai>

@@ -1,0 +1,15 @@
+package com.pcpart.assembler.compatibility;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CompatibilityRuleInfo {
+
+    private String id;
+    private String description;
+    private String severity;
+}

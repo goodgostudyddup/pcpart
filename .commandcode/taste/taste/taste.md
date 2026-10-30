@@ -1,0 +1,12 @@
+# Taste
+- Communicates in Chinese (Simplified); respond in Chinese. Confidence: 0.6
+- For open-ended or subjective tasks (e.g. UI beautification), first present several design directions for the user to choose from, then implement the chosen one. Confidence: 0.7
+- Uses the aREDACTED_SET_IN_ENV flow to let the user pick design direction and scope before making visual changes. Confidence: 0.5
+- After making UI changes, expects the work to be verified visually: start the app and take screenshots, rather than only reporting that the changes are done without checking. Confidence: 0.6
+- Prefers fully finishing a refactor: when old code paths are superseded, delete the legacy modules and their tests rather than leaving them in place "for now" (approved deleting an entire agent/ directory and its proxy controller, plus the related filter branch and test case). Confidence: 0.7
+- Repo convention (agent.md): every change should come with a commit and corresponding tests. Confidence: 0.45
+- Runs his own cloud server (self-hosted Dify Chatflow) and prefers delegating knowledge-base retrieval / LLM reasoning to that external workflow instead of reimplementing it in the repo's own agent code; the in-repo agent should just be a thin session-forwarding layer. Confidence: 0.8
+- Very cost-aware about LLM context: hates pushing large backend datasets into the model context and prefers server-side filtering/projection plus on-demand, size-capped tool results over dumping full rows. Confidence: 0.65
+- Prefers the vendor's official web embed / SDK over maintaining a hand-rolled equivalent UI (chose to delete the custom chat panel in favor of Dify's chatbot embed rather than keep both). Confidence: 0.55
+- Gives terse, outcome-level instructions (an endpoint + key, "switch the agent to this", a bare "删掉") and expects the agent to probe the live service, verify the API contract, and work out the integration details itself before coding. Confidence: 0.65
+- When choosing a UI style, favors clean modern minimal aesthetics (white surfaces, soft shadows, rounded corners, single indigo accent) for data-management pages. Confidence: 0.4

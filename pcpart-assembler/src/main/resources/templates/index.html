@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电脑组装配置单管理</title>
+    <style>
+        :root {
+            --primary: #4f46e5; --primary-hover: #4338ca; --primary-soft: #eef2ff;
+            --danger: #dc2626; --danger-soft: #fef2f2;
+            --bg: #f5f7fb; --surface: #ffffff; --border: #e5e7eb; --border-strong: #d1d5db;
+            --text: #111827; --text-2: #374151; --muted: #6b7280;
+            --radius: 12px; --radius-sm: 8px;
+            --shadow: 0 1px 2px rgba(16,24,40,.04), 0 1px 3px rgba(16,24,40,.06);
+            --shadow-lg: 0 12px 40px rgba(16,24,40,.18);
+        }
+        * { box-sizing: border-box; }
+        body { font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; margin: 0; background: var(--bg); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+        header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 18px 28px; display: flex; flex-direction: column; gap: 2px; }
+        header h1 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -.01em; color: var(--text); }
+        header p { margin: 0; font-size: 12.5px; color: var(--muted); }
+        .tabs { display: flex; flex-wrap: wrap; gap: 6px; padding: 16px 28px 0; }
+        .tabs button { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 13px; font-weight: 500; transition: all .15s ease; }
+        .tabs button:hover { border-color: var(--primary); color: var(--primary); }
+        .tabs button.active { background: var(--primary); border-color: var(--primary); color: #fff; box-shadow: 0 2px 6px rgba(79,70,229,.25); }
+        .container { padding: 14px 28px 48px; }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-top: 14px; box-shadow: var(--shadow); }
+        .container > .card:first-child { margin-top: 0; }
+        .card h3 { font-size: 15px; font-weight: 600; color: var(--text); }
+        .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+        input, select, textarea { font: inherit; font-size: 13px; color: var(--text); background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 7px 10px; outline: none; transition: border-color .15s, box-shadow .15s; }
+        input:focus, select:focus, textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79,70,229,.15); }
+        button.op { font: inherit; font-size: 13px; font-weight: 500; background: var(--primary); color: #fff; border: 1px solid transparent; border-radius: var(--radius-sm); padding: 7px 14px; cursor: pointer; transition: background .15s, box-shadow .15s; }
+        button.op:hover { background: var(--primary-hover); }
+        button.op:disabled { opacity: .6; cursor: not-allowed; }
+        button.op.danger { background: var(--danger-soft); color: var(--danger); border-color: #fecaca; }
+        button.op.danger:hover { background: #fee2e2; }
+        button.op.ghost { background: var(--primary-soft); color: var(--primary); }
+        button.op.ghost:hover { background: #e0e7ff; }
+        button.op:focus-visible, .tabs button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+        .table-wrap { overflow: auto; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+        table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+        th, td { padding: 10px 12px; text-align: left; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border-bottom: 1px solid var(--border); }
+        td { color: var(--text-2); }
+        td:last-child, th:last-child { max-width: none; overflow: visible; }
+        tbody tr:hover td { background: #f8f9ff; }
+        tbody tr:last-child td { border-bottom: none; }
+        th { background: #f9fafb; color: var(--muted); font-size: 12px; font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0; }
+        th:hover { color: var(--text); }
+        th.sorted-asc::after { content: ' ▲'; color: var(--primary); }
+        th.sorted-desc::after { content: ' ▼'; color: var(--primary); }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px 14px; margin-top: 14px; }
+        .form-grid label { font-size: 12px; font-weight: 500; color: var(--text-2); display: flex; flex-direction: column; gap: 5px; }
+        .form-grid input, .form-grid textarea { width: 100%; }
+        .form-grid textarea { min-height: 72px; resize: vertical; font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+        .muted { color: var(--muted); font-size: 12px; }
+        .pager { margin-top: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+        @media (max-width: 640px) {
+            header, .tabs, .container { padding-left: 16px; padding-right: 16px; }
+        }
+        #detailDrawer { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 2000; background: rgba(15,23,42,.45); backdrop-filter: blur(3px); display: flex; align-items: center;
+            justify-content: center; visibility: hidden; opacity: 0; transition: opacity .2s; }
+        #detailDrawer.active { visibility: visible; opacity: 1; }
+        #detailDrawer .d-content { background: var(--surface); border-radius: 16px; max-width: 640px;
+            width: min(92vw, 640px); max-height: 84vh; overflow-y: auto; box-shadow: var(--shadow-lg); transform: translateY(8px); transition: transform .2s; }
+        #detailDrawer.active .d-content { transform: none; }
+        #detailDrawer .d-head { background: var(--surface); color: var(--text); padding: 16px 20px; font-size: 15px;
+            font-weight: 600; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; }
+        #detailDrawer .d-close { background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+            border-radius: var(--radius-sm); width: 32px; height: 32px; padding: 0; cursor: pointer; font-size: 18px; line-height: 1; }
+        #detailDrawer .d-close:hover { color: var(--text); border-color: var(--border-strong); }
+        #detailDrawer .d-body { padding: 8px 20px; }
+        #detailDrawer .d-total { font-size: 15px; font-weight: 600; color: var(--danger); padding: 14px 20px;
+            border-top: 1px solid var(--border); background: #fafbfc; border-radius: 0 0 16px 16px; }
+        .d-part { border-bottom: 1px solid var(--border); padding: 10px 0; }
+        .d-part:last-child { border-bottom: none; }
+        .d-part .d-row { display: flex; gap: 10px; align-items: center; cursor: pointer; user-select: none; }
+        .d-part .d-row:hover .d-name { color: var(--primary); }
+        .d-part .d-row .d-label { font-size: 12px; font-weight: 600; color: var(--primary); background: var(--primary-soft); border-radius: 6px; padding: 2px 8px; min-width: 64px; text-align: center; }
+        .d-part .d-row .d-name { flex: 1; font-size: 13px; color: var(--text); }
+        .d-part .d-row .d-price { color: var(--danger); font-weight: 600; min-width: 80px; text-align: right; font-size: 13px; }
+        .d-part .d-row .d-toggle { transition: transform .2s; color: var(--muted); font-size: 11px; width: 12px; text-align: center; }
+        .d-part .d-specs { display: none; padding: 8px 0 0 74px; font-size: 12px; color: var(--muted); line-height: 1.7; }
+        .d-part .d-specs.show { display: block; }
+        .d-part .d-spec-item { display: inline-block; margin-right: 12px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>电脑组装配置单管理</h1>
+    <p>8 类部件（open-db 富参数） + 配置单 · 增删改查 · 部件引用 opendb_id</p>
+</header>
+<div class="tabs" id="tabs"></div>
+<div class="container">
+    <div class="card">
+        <div class="row">
+            <input id="keyword" placeholder="关键词模糊搜索（名称/厂商/opendb_id）" style="width:280px">
+            <button class="op ghost" onclick="doSearch()">搜索</button>
+            <span class="muted" id="stat"></span>
+            <span style="flex:1"></span>
+            <span class="muted">API 前缀：<span id="apiPrefix"></span></span>
+        </div>
+    </div>
+    <div class="card">
+        <h3 id="formTitle">新增</h3>
+        <div class="form-grid" id="formGrid"></div>
+        <div class="row" style="margin-top:10px">
+            <button class="op" onclick="doSave()">保存（新增 / 更新）</button>
+            <button class="op ghost" onclick="resetForm()">清空表单</button>
+            <span class="muted">点表格行“编辑”回填表单；保存时带编号即更新，不带编号即新增。raw_json 为原始参数全文（可空）。</span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="table-wrap">
+            <table>
+                <thead><tr id="thead"></tr></thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+        <div class="pager">
+            <button class="op ghost" onclick="prevPage()">上一页</button>
+            <span class="muted" id="pageInfo"></span>
+            <button class="op ghost" onclick="nextPage()">下一页</button>
+            <span class="muted">每页</span>
+            <select id="pageSize" onchange="doSearch()">
+                <option>5</option><option selected>10</option><option>20</option><option>50</option>
+            </select>
+        </div>
+    </div>
+</div>
+<script>
+const ID_LABEL = '编号';
+const MODULES = {
+    cpus: { label: 'CPU', api: '/api/cpus',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'socket',l:'插槽'},{k:'microarchitecture',l:'微架构'},{k:'coreFamily',l:'核心家族'},{k:'coresTotal',l:'总核心数'},{k:'coresPerformance',l:'性能核数'},{k:'coresEfficiency',l:'能效核数'},{k:'threads',l:'线程数'},{k:'baseClock',l:'基础频率(GHz)'},{k:'boostClock',l:'加速频率(GHz)'},{k:'l2Cache',l:'L2缓存(MB)'},{k:'l3Cache',l:'L3缓存(MB)'},{k:'tdp',l:'功耗(W)'},{k:'integratedGraphics',l:'核显型号'},{k:'memoryMax',l:'最大内存(GB)'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    coolers: { label: 'CPU散热器', api: '/api/coolers',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'waterCooled',l:'是否水冷(1/0)'},{k:'radiatorSize',l:'冷排尺寸(mm)'},{k:'fanless',l:'是否无风扇(1/0)'},{k:'fanSize',l:'风扇尺寸(mm)'},{k:'fanQuantity',l:'风扇数量'},{k:'minFanRpm',l:'最低转速'},{k:'maxFanRpm',l:'最高转速'},{k:'minNoise',l:'最低噪音(dBA)'},{k:'maxNoise',l:'最高噪音(dBA)'},{k:'height',l:'高度(mm)'},{k:'cpuSockets',l:'支持插槽'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    gpus: { label: '显卡', api: '/api/gpus',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'chipsetManufacturer',l:'芯片厂商'},{k:'chipset',l:'芯片组'},{k:'coreBaseClock',l:'核心基础频率(MHz)'},{k:'coreBoostClock',l:'核心加速频率(MHz)'},{k:'memoryGb',l:'显存(GB)'},{k:'memoryType',l:'显存类型'},{k:'effectiveMemoryClock',l:'等效显存频率(MHz)'},{k:'tdp',l:'功耗(W)'},{k:'gpuInterface',l:'接口'},{k:'lengthMm',l:'长度(mm)'},{k:'slotWidth',l:'槽位宽度'},{k:'cooling',l:'散热方式'},{k:'frameSync',l:'画面同步技术'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    motherboards: { label: '主板', api: '/api/motherboards',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'socket',l:'插槽'},{k:'chipset',l:'芯片组'},{k:'formFactor',l:'板型'},{k:'memoryMax',l:'最大内存(GB)'},{k:'memoryType',l:'内存类型'},{k:'memorySlots',l:'内存插槽数'},{k:'wireless',l:'无线网络'},{k:'eccSupport',l:'ECC支持(1/0)'},{k:'raidSupport',l:'RAID支持(1/0)'},{k:'color',l:'颜色'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    cases: { label: '机箱', api: '/api/cases',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'formFactor',l:'机箱版型'},{k:'color',l:'颜色'},{k:'sidePanel',l:'侧板类型'},{k:'transparentPanel',l:'是否透侧(1/0)'},{k:'powerSupply',l:'附带电源'},{k:'maxGpuLength',l:'最大显卡长度(mm)'},{k:'maxCoolerHeight',l:'最大散热器高度(mm)'},{k:'bays35',l:'3.5英寸仓位数'},{k:'bays25',l:'2.5英寸仓位数'},{k:'expansionSlots',l:'扩展槽数'},{k:'volumeL',l:'体积(升)'},{k:'weightKg',l:'重量(kg)'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    psus: { label: '电源', api: '/api/psus',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'wattage',l:'额定功率(W)'},{k:'formFactor',l:'规格'},{k:'efficiency',l:'能效等级'},{k:'modular',l:'模组类型'},{k:'lengthMm',l:'长度(mm)'},{k:'fanless',l:'是否无风扇(1/0)'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    rams: { label: '内存', api: '/api/rams',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'ramType',l:'内存类型'},{k:'speedMt',l:'速率(MT/s)'},{k:'capacityGb',l:'总容量(GB)'},{k:'modulesQty',l:'模组数量'},{k:'moduleGb',l:'单条容量(GB)'},{k:'formFactor',l:'规格'},{k:'casLatency',l:'CAS时序'},{k:'voltage',l:'电压(V)'},{k:'color',l:'颜色'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    storages: { label: '硬盘', api: '/api/storages',
+        fields: [{k:'opendbId',l:'OpenDB编号'},{k:'name',l:'产品名称'},{k:'manufacturer',l:'厂商'},{k:'series',l:'系列'},{k:'variant',l:'型号变体'},{k:'storageType',l:'类型(SSD/HDD)'},{k:'capacityGb',l:'容量(GB)'},{k:'formFactor',l:'规格'},{k:'hardInterface',l:'接口'},{k:'nvme',l:'是否NVMe(1/0)'},{k:'cacheMb',l:'缓存(MB)'},{k:'releaseYear',l:'发布年份'},{k:'priceUsd',l:'价格(美元)'},{k:'priceCny',l:'价格(人民币)'},{k:'priceUpdatedAt',l:'价格更新时间'},{k:'rawJson',l:'原始参数JSON',long:1}] },
+    'build-configs': { label: '配置单', api: '/api/build-configs',
+        fields: [
+            {k:'configName',l:'配置单名称'},
+            {k:'cpuId',l:'CPU',name:'cpuName'},
+            {k:'coolerId',l:'散热器',name:'coolerName'},
+            {k:'motherboardId',l:'主板',name:'motherboardName'},
+            {k:'ramId',l:'内存',name:'ramName'},
+            {k:'gpuId',l:'显卡',name:'gpuName'},
+            {k:'psuId',l:'电源',name:'psuName'},
+            {k:'storageId',l:'硬盘',name:'storageName'},
+            {k:'caseId',l:'机箱',name:'caseName'},
+            {k:'remark',l:'备注'}
+        ],
+        hasDetail: true },
+};
+const EXTRA_COLS = [{k:'createTime',l:'创建时间'},{k:'updateTime',l:'更新时间'}];
+let cur = 'build-configs';
+let current = 1;
+let sortKey = null;
+let sortDir = 'asc';
+let lastRows = [];
+
+const tabsEl = document.getElementById('tabs');
+Object.entries(MODULES).forEach(([key, m]) => {
+    const b = document.createElement('button');
+    b.textContent = m.label;
+    b.id = 'tab-' + key;
+    b.onclick = () => switchTab(key);
+    tabsEl.appendChild(b);
+});
+
+function shortCols() {
+    return [{k:'id',l:ID_LABEL}, ...MODULES[cur].fields.filter(f => !f.long)];
+}
+
+function switchTab(key) {
+    cur = key; current = 1; sortKey = null; sortDir = 'asc'; lastRows = [];
+    document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('active'));
+    document.getElementById('tab-' + key).classList.add('active');
+    document.getElementById('apiPrefix').textContent = MODULES[key].api;
+    buildForm();
+    doSearch();
+}
+
+function buildForm() {
+    const grid = document.getElementById('formGrid');
+    grid.innerHTML = '';
+    const hidden = document.createElement('input');
+    hidden.type = 'hidden'; hidden.id = 'f-id';
+    grid.appendChild(hidden);
+    MODULES[cur].fields.forEach(f => {
+        const label = document.createElement('label');
+        if (f.long) { label.style.gridColumn = '1 / -1'; }
+        label.textContent = f.l;
+        let inp;
+        if (f.long) { inp = document.createElement('textarea'); }
+        else { inp = document.createElement('input'); }
+        inp.id = 'f-' + f.k;
+        if (f.long) { inp.placeholder = '可空，JSON 全文'; }
+        if (f.name) { inp.placeholder = '填配件 opendb_id（UUID），保存后表格显示产品名'; }
+        label.appendChild(inp);
+        grid.appendChild(label);
+    });
+    document.getElementById('formTitle').textContent = MODULES[cur].label + ' · 新增 / 编辑';
+}
+
+function collectForm() {
+    const obj = {};
+    const id = document.getElementById('f-id').value;
+    if (id) obj.id = Number(id);
+    MODULES[cur].fields.forEach(f => {
+        const v = document.getElementById('f-' + f.k).value;
+        obj[f.k] = v === '' ? null : v;
+    });
+    return obj;
+}
+
+function fillForm(row) {
+    document.getElementById('f-id').value = row.id ?? '';
+    MODULES[cur].fields.forEach(f => {
+        document.getElementById('f-' + f.k).value = row[f.k] ?? '';
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function resetForm() {
+    document.getElementById('f-id').value = '';
+    MODULES[cur].fields.forEach(f => { document.getElementById('f-' + f.k).value = ''; });
+}
+
+async function doSearch() {
+    const size = Number(document.getElementById('pageSize').value || 10);
+    const keyword = document.getElementById('keyword').value || '';
+    const url = `${MODULES[cur].api}/page?current=${current}&size=${size}&keyword=${encodeURIComponent(keyword)}`;
+    const r = await fetch(url).then(x => x.json());
+    if (r.code !== 200) { alert(r.msg || '查询失败'); return; }
+    renderTable(r.data.records || []);
+    document.getElementById('pageInfo').textContent = `第 ${r.data.current}/${Math.max(1, Math.ceil(r.data.total / r.data.size))} 页，共 ${r.data.total} 条`;
+    document.getElementById('stat').textContent = `当前：${MODULES[cur].label}`;
+}
+
+function renderTable(rows) {
+    lastRows = rows.slice();
+    applySort();
+}
+
+function applySort() {
+    const cols = cur === 'build-configs' ? [{k:'id',l:ID_LABEL}, ...MODULES[cur].fields, ...EXTRA_COLS] : shortCols();
+    const head = document.getElementById('thead');
+    head.innerHTML = '';
+    cols.forEach(c => {
+        const th = document.createElement('th');
+        th.textContent = c.l;
+        const sortTarget = c.name || c.k;
+        if (sortKey === sortTarget) { th.classList.add(sortDir === 'asc' ? 'sorted-asc' : 'sorted-desc'); }
+        th.title = '点击排序：' + c.l;
+        th.onclick = () => toggleSort(sortTarget);
+        head.appendChild(th);
+    });
+    const opTh = document.createElement('th');
+    opTh.textContent = '操作';
+    head.appendChild(opTh);
+    let rows = lastRows.slice();
+    if (sortKey) {
+        rows.sort((a, b) => {
+            const va = a[sortKey], vb = b[sortKey];
+            const na = va === null || va === undefined || va === '';
+            const nb = vb === null || vb === undefined || vb === '';
+            if (na && nb) return 0;
+            if (na) return 1;
+            if (nb) return -1;
+            const xa = (typeof va === 'number') ? va : (isNaN(Number(va)) ? String(va) : Number(va));
+            const xb = (typeof vb === 'number') ? vb : (isNaN(Number(vb)) ? String(vb) : Number(vb));
+            let cmp = 0;
+            if (typeof xa === 'number' && typeof xb === 'number') { cmp = xa - xb; }
+            else { cmp = String(xa).localeCompare(String(xb), 'zh-CN'); }
+            return sortDir === 'asc' ? cmp : -cmp;
+        });
+    }
+    const tb = document.getElementById('tbody');
+    tb.innerHTML = '';
+    const isCfg = cur === 'build-configs';
+    rows.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = cols.map(c => {
+            const raw = row[c.k] ?? '';
+            const partName = c.name ? row[c.name] : null;
+            const text = partName || raw;
+            const title = partName ? '名称：' + text + ' ｜ 编号：' + raw : String(text);
+            return `<td title="${escapeHtml(String(title))}">${escapeHtml(String(text))}</td>`;
+        }).join('');
+        const td = document.createElement('td');
+        const eb = document.createElement('button');
+        eb.textContent = '编辑'; eb.className = 'op ghost'; eb.onclick = () => fillForm(row);
+        const db = document.createElement('button');
+        db.textContent = '删除'; db.className = 'op danger'; db.style.marginLeft = '6px';
+        db.onclick = () => doDelete(row.id);
+        td.appendChild(eb); td.appendChild(db);
+        if (isCfg) {
+            const ab = document.createElement('button');
+            ab.textContent = '详情'; ab.className = 'op ghost'; ab.style.marginLeft = '6px';
+            ab.onclick = () => openConfigDetail(row.id);
+            td.appendChild(ab);
+        }
+        tr.appendChild(td);
+        tb.appendChild(tr);
+    });
+}
+
+function toggleSort(key) {
+    if (sortKey === key) { sortDir = sortDir === 'asc' ? 'desc' : 'asc'; }
+    else { sortKey = key; sortDir = 'asc'; }
+    applySort();
+}
+
+function escapeHtml(s) { return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+async function doSave() {
+    const obj = collectForm();
+    const method = obj.id ? 'PUT' : 'POST';
+    const url = obj.id ? `${MODULES[cur].api}/${obj.id}` : MODULES[cur].api;
+    const r = await fetch(url, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(obj) }).then(x => x.json());
+    if (r.code !== 200) { alert(r.msg || '保存失败'); return; }
+    resetForm();
+    doSearch();
+}
+
+async function doDelete(id) {
+    if (!confirm('确认删除编号=' + id + ' 吗？')) return;
+    const r = await fetch(`${MODULES[cur].api}/${id}`, { method: 'DELETE' }).then(x => x.json());
+    if (r.code !== 200) { alert(r.msg || '删除失败'); return; }
+    doSearch();
+}
+
+function prevPage() { if (current > 1) { current--; doSearch(); } }
+function nextPage() { current++; doSearch(); }
+
+switchTab('build-configs');
+</script>
+<div id="detailDrawer" role="dialog" aria-modal="true" aria-label="配置详情" aria-hidden="true">
+    <div class="d-content">
+        <div class="d-head" id="detailDrawerHead">
+            <span id="detailConfigName">配置详情</span>
+            <button class="d-close" type="button" onclick="closeDetailDrawer()">×</button>
+        </div>
+        <div class="d-body" id="detailBody">
+            <div class="muted">加载中…</div>
+        </div>
+        <div class="d-total" id="detailTotal"></div>
+    </div>
+</div>
+<script>
+async function openConfigDetail(id) {
+    const envelope = await fetch('/internal/build-configs/' + id + '/detail').then(x => x.json());
+    const res = envelope && envelope.data;
+    if (!res || envelope.code !== 200) {
+        alert('获取详情失败：' + ((envelope && envelope.msg) || 'HTTP ' + id));
+        return;
+    }
+    document.getElementById('detailConfigName').textContent = (res.configName || '配置单 #' + id) + ' 的详情';
+    const body = document.getElementById('detailBody');
+    body.innerHTML = '';
+    const categories = [
+        ['cpu','CPU',res.cpuId,res.cpuName], ['cooler','散热器',res.coolerId,res.coolerName],
+        ['motherboard','主板',res.motherboardId,res.motherboardName], ['ram','内存',res.ramId,res.ramName],
+        ['gpu','显卡',res.gpuId,res.gpuName], ['psu','电源',res.psuId,res.psuName],
+        ['storage','硬盘',res.storageId,res.storageName], ['case','机箱',res.caseId,res.caseName]
+    ];
+    let total = 0;
+    let priced = 0;
+    for (const [category,label,identifier,partName] of categories) {
+        if (!identifier) continue;
+        const part = await fetch('/internal/parts/' + category + '/' + encodeURIComponent(identifier)).then(x => x.json()).catch(() => null);
+        const fields = (part && part.code === 200 && part.data && part.data.fields) || null;
+        const price = fields && fields.price_cny != null ? Number(fields.price_cny) : null;
+        if (price != null) { total += price; priced++; }
+        const div = document.createElement('div'); div.className = 'd-part';
+        const row = document.createElement('div'); row.className = 'd-row';
+        const labelEl = document.createElement('span'); labelEl.className = 'd-label'; labelEl.textContent = label;
+        const name = document.createElement('span'); name.className = 'd-name'; name.textContent = partName || (fields && fields.name) || String(identifier);
+        const priceEl = document.createElement('span'); priceEl.className = 'd-price'; priceEl.textContent = price != null ? price + '元' : '';
+        const toggle = document.createElement('span'); toggle.className = 'd-toggle'; toggle.textContent = '▼';
+        row.appendChild(labelEl); row.appendChild(name); row.appendChild(priceEl); row.appendChild(toggle);
+        const specs = document.createElement('div'); specs.className = 'd-specs';
+        specs.textContent = fields ? Object.entries(fields)
+            .filter(([k,v]) => v != null && v !== '' && !['id','opendb_id','name','raw_json','price_updated_at','price_usd'].includes(k))
+            .map(([k,v]) => k + '：' + v).join(' · ') : '后端暂无该配件详情';
+        row.onclick = () => { specs.classList.toggle('show'); toggle.textContent = specs.classList.contains('show') ? '▲' : '▼'; };
+        div.appendChild(row); div.appendChild(specs); body.appendChild(div);
+    }
+    document.getElementById('detailTotal').textContent = '配置单 #' + id + (priced ? ' · 已标价配件合计 ' + total.toLocaleString('zh-CN') + ' 元（' + priced + ' 件）' : ' · 价格以当前后端配件数据为准');
+    document.getElementById('detailDrawer').classList.add('active');
+    document.getElementById('detailDrawer').setAttribute('aria-hidden', 'false');
+}
+
+function closeDetailDrawer() {
+    const d = document.getElementById('detailDrawer');
+    d.classList.remove('active');
+    d.setAttribute('aria-hidden', 'true');
+}
+
+function _detailDrawerOverlayClick(e) {
+    if (e.target === document.getElementById('detailDrawer')) closeDetailDrawer();
+}
+
+function _detailDrawerKeydown(e) {
+    if (e.key === 'Escape') closeDetailDrawer();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const dd = document.getElementById('detailDrawer');
+    if (dd) {
+        dd.addEventListener('click', _detailDrawerOverlayClick);
+        dd.addEventListener('keydown', _detailDrawerKeydown);
+    }
+});
+</script>
+<style>
+/* ===== AI 装机助手（由 Java 后端代理 Dify，前端不接触 app key） ===== */
+#ai-fab{position:fixed;right:24px;bottom:24px;width:56px;height:56px;border-radius:50%;background:#1C64F2;color:#fff;border:none;cursor:pointer;font-size:24px;box-shadow:0 8px 24px rgba(28,100,242,.35);z-index:9998;display:flex;align-items:center;justify-content:center}
+#ai-fab:hover{transform:translateY(-2px)}
+#ai-panel{position:fixed;right:24px;bottom:92px;width:420px;height:600px;max-height:calc(100vh - 120px);background:#fff;border:1px solid #E5E7EB;border-radius:14px;box-shadow:0 16px 48px rgba(0,0,0,.16);display:none;flex-direction:column;z-index:9999;overflow:hidden}
+#ai-panel.open{display:flex}
+.ai-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:#1C64F2;color:#fff;font-weight:600;font-size:14px}
+.ai-head button{background:transparent;border:none;color:#fff;font-size:18px;cursor:pointer;line-height:1}
+#ai-body{flex:1;overflow-y:auto;padding:14px;background:#F9FAFB;display:flex;flex-direction:column;gap:10px}
+.ai-msg{max-width:92%;padding:10px 12px;border-radius:10px;font-size:13px;line-height:1.65;word-break:break-word}
+.ai-msg.user{align-self:flex-end;background:#1C64F2;color:#fff;white-space:pre-wrap}
+.ai-msg.bot{align-self:flex-start;background:#fff;color:#111827;border:1px solid #E5E7EB}
+.ai-msg.bot table{border-collapse:collapse;width:100%;margin:6px 0;font-size:12px}
+.ai-msg.bot th,.ai-msg.bot td{border:1px solid #E5E7EB;padding:4px 6px;text-align:left}
+.ai-msg.bot th{background:#F3F4F6}
+.ai-msg.bot ul{margin:6px 0;padding-left:18px}
+.ai-msg.bot p{margin:6px 0}
+.ai-msg.bot h4{margin:8px 0 4px;font-size:13px}
+.ai-tools{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+.ai-btn{border:1px solid #1C64F2;color:#1C64F2;background:#fff;border-radius:6px;padding:4px 10px;font-size:12px;cursor:pointer}
+.ai-btn:hover{background:#EFF6FF}
+.ai-btn[disabled]{opacity:.5;cursor:not-allowed}
+#ai-foot{border-top:1px solid #E5E7EB;padding:10px;background:#fff;display:flex;gap:8px}
+#ai-input{flex:1;resize:none;height:42px;max-height:96px;border:1px solid #D1D5DB;border-radius:8px;padding:10px;font-size:13px;outline:none;font-family:inherit}
+#ai-input:focus{border-color:#1C64F2}
+#ai-send{background:#1C64F2;color:#fff;border:none;border-radius:8px;padding:0 16px;font-size:13px;cursor:pointer}
+#ai-send[disabled]{opacity:.55;cursor:not-allowed}
+.ai-tip{font-size:12px;color:#6B7280}
+</style>
+<button id="ai-fab" title="AI 装机助手">🤖</button>
+<div id="ai-panel">
+  <div class="ai-head"><span>🤖 AI 装机助手</span><button id="ai-close" type="button">×</button></div>
+  <div id="ai-body"></div>
+  <div id="ai-foot">
+    <textarea id="ai-input" placeholder="例如：预算6000，主要打游戏，2K高帧，要DDR5"></textarea>
+    <button id="ai-send" type="button">发送</button>
+  </div>
+</div>
+<script>
+(function(){
+  var panel=document.getElementById("ai-panel"),body=document.getElementById("ai-body");
+  var input=document.getElementById("ai-input"),sendBtn=document.getElementById("ai-send");
+  var state={conversationId:"",answer:"",busy:false,es:null};
+
+  function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+  function inline(s){return esc(s).replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\x60([^\x60]+)\x60/g,"<code>$1</code>");}
+  function tableHtml(rows){
+    var cells=rows.map(function(r){return r.trim().replace(/^\|/,"").replace(/\|$/,"").split("|").map(function(c){return c.trim();});});
+    var head=cells[0]||[], out=["<table><thead><tr>"];
+    head.forEach(function(c){out.push("<th>"+inline(c)+"</th>");});
+    out.push("</tr></thead><tbody>");
+    for(var i=1;i<cells.length;i++){
+      var row=cells[i];
+      if(row.length&&row.every(function(c){return /^:?-{2,}:?$/.test(c);})) continue;
+      out.push("<tr>");
+      row.forEach(function(c){out.push("<td>"+inline(c)+"</td>");});
+      out.push("</tr>");
+    }
+    out.push("</tbody></table>");
+    return out.join("");
+  }
+  function renderMd(text){
+    var lines=String(text||"").split("\n"),out=[],i=0;
+    while(i<lines.length){
+      var line=lines[i];
+      if(/^\s*\|/.test(line)){
+        var tbl=[];
+        while(i<lines.length&&/^\s*\|/.test(lines[i])){tbl.push(lines[i]);i++;}
+        out.push(tableHtml(tbl));continue;
+      }
+      if(/^###\s+/.test(line)){out.push("<h4>"+esc(line.replace(/^###\s+/,""))+"</h4>");i++;continue;}
+      if(/^\s*[-*]\s+/.test(line)){
+        var items=[];
+        while(i<lines.length&&/^\s*[-*]\s+/.test(lines[i])){items.push("<li>"+inline(lines[i].replace(/^\s*[-*]\s+/,""))+"</li>");i++;}
+        out.push("<ul>"+items.join("")+"</ul>");continue;
+      }
+      if(line.trim()===""){i++;continue;}
+      out.push("<p>"+inline(line)+"</p>");i++;
+    }
+    return out.join("");
+  }
+  function addMsg(role,text){
+    var d=document.createElement("div");
+    d.className="ai-msg "+role;
+    if(role==="user"){d.textContent=text;}else{d.innerHTML=text?renderMd(text):"<span class=ai-tip>思考中…</span>";}
+    body.appendChild(d);body.scrollTop=body.scrollHeight;return d;
+  }
+  function showSave(bubble,answer){
+    var bar=document.createElement("div");bar.className="ai-tools";
+    var b=document.createElement("button");b.className="ai-btn";b.textContent="保存为配置单";
+    b.onclick=function(){
+      b.disabled=true;b.textContent="保存中…";
+      fetch("/api/assistant/save-config",{method:"POST",headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({answer:answer,configName:"AI 配置单 "+new Date().toLocaleString()})})
+        .then(function(r){return r.json();})
+        .then(function(res){
+          if(res.code===200&&res.data&&res.data.id){
+            b.textContent="已保存 #"+res.data.id;
+            var v=document.createElement("a");v.className="ai-btn";v.textContent="查看";
+            v.href="/#build-configs";bar.appendChild(v);
+          }else{b.disabled=false;b.textContent="保存失败，重试";alert(res.msg||"保存失败");}
+        })
+        .catch(function(){b.disabled=false;b.textContent="保存失败，重试";});
+    };
+    bar.appendChild(b);bubble.appendChild(bar);
+  }
+  function send(){
+    var q=input.value.trim();
+    if(!q||state.busy)return;
+    state.busy=true;state.answer="";sendBtn.disabled=true;input.value="";
+    addMsg("user",q);
+    var bubble=addMsg("bot","");
+    var url="/api/assistant/stream?query="+encodeURIComponent(q)+(state.conversationId?"&conversationId="+encodeURIComponent(state.conversationId):"");
+    if(state.es){state.es.close();}
+    var es=new EventSource(url);state.es=es;
+    es.onmessage=function(ev){
+      try{var o=JSON.parse(ev.data);
+        if(o.event==="message"&&o.answer){state.answer=o.answer;bubble.innerHTML=renderMd(state.answer);body.scrollTop=body.scrollHeight;}
+      }catch(e){}
+    };
+    es.addEventListener("done",function(ev){
+      try{var o=JSON.parse(ev.data);
+        if(o.conversationId)state.conversationId=o.conversationId;
+        if(o.answer)state.answer=o.answer;
+      }catch(e){}
+      bubble.innerHTML=renderMd(state.answer||"（没有拿到内容）");
+      if(state.answer)showSave(bubble,state.answer);
+      state.busy=false;sendBtn.disabled=false;es.close();
+    });
+    es.addEventListener("error",function(ev){
+      try{
+        if(ev.data){var msg=ev.data;bubble.innerHTML="<p class=ai-tip>出错："+esc(msg)+"</p>";}
+      }catch(e){}
+      state.busy=false;sendBtn.disabled=false;es.close();
+    });
+    es.onerror=function(){
+      if(state.busy){
+        state.busy=false;sendBtn.disabled=false;
+        if(!state.answer){bubble.innerHTML="<p class=ai-tip>连接中断，请重试</p>";}
+        es.close();
+      }
+    };
+  }
+  document.getElementById("ai-fab").onclick=function(){panel.classList.toggle("open");};
+  document.getElementById("ai-close").onclick=function(){panel.classList.remove("open");};
+  sendBtn.onclick=send;
+  input.addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();send();}});
+  addMsg("bot","你好，我是装机助手。告诉我预算和用途，比如「预算6000，主要打游戏，2K高帧，要DDR5」，我给你出配置单。");
+})();
+</script>
+</body>
+</html>

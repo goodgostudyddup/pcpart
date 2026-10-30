@@ -1,0 +1,18 @@
+stdout=gbk preferred=utf-8
+DIRECT_FAIL
+Traceback (most recent call last):
+  File "C:\Users\yxc\Desktop\up\pcpart\.tmpbuild\repro.py", line 9, in <module>
+    r = BackendClient().search('cpu', {'current': 1, 'size': 10, 'requirePriced': True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yxc\Desktop\up\pcpart\agent\pcpart_agent\backend.py", line 114, in search
+    return self.request(f"/internal/parts/{quote(category, safe='')}/search", "POST", request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yxc\Desktop\up\pcpart\agent\pcpart_agent\backend.py", line 104, in request
+    self._trace("  后端返回", _preview(payload, self.log_max_chars))
+  File "C:\Users\yxc\Desktop\up\pcpart\agent\pcpart_agent\backend.py", line 66, in _trace
+    self._log(f"[backend] {arrow} {text}")
+  File "C:\Users\yxc\Desktop\up\pcpart\agent\pcpart_agent\backend.py", line 63, in _log
+    print(text, flush=True)
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2122' in position 5019: illegal multibyte sequence
+
+RECOMMEND parts=7 errors=[{'category': 'cpu', 'message': "'gbk' codec can't encode character '\\u2122' in position 5019: illegal multibyte sequence"}]

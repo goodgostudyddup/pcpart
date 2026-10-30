@@ -1,0 +1,8 @@
+CPU插槽 16/16
+主板插槽 35/35
+散热器支持插槽 25/30 缺:G34|Integrated Atom|Integrated AMD|Integrated Pentium|Integrated Xeon D
+显卡接口 9/9
+硬盘接口 21/21
+内存类型 5/5
+电源规格 6/6
+机箱板型 14/14
